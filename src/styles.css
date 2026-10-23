@@ -430,8 +430,7 @@ table.compare { width: 100%; border-collapse: collapse; min-width: 620px; }
 .field textarea { min-height: 120px; resize: vertical; }
 .field input:focus, .field select:focus, .field textarea:focus { outline: none; border-color: var(--c-primary); background: #fff; box-shadow: 0 0 0 4px rgba(36, 87, 245, .12); }
 .field.invalid input, .field.invalid select, .field.invalid textarea { border-color: #e5484d; }
-.field .err { display: none; color: #e5484d; font-size: 13px; margin-top: 6px; }
-.field.invalid .err { display: block; }
+.field .err { color: #e5484d; font-size: 13px; margin-top: 6px; }
 .chips { display: flex; flex-wrap: wrap; gap: 10px; }
 .chips label { margin: 0; font-weight: 500; position: relative; }
 .chips input { position: absolute; left: 0; top: 0; width: 1px; height: 1px; padding: 0; opacity: 0; pointer-events: none; }
@@ -474,12 +473,9 @@ table.compare { width: 100%; border-collapse: collapse; min-width: 620px; }
 .footer-bottom { border-top: 1px solid rgba(255,255,255,.1); padding: 22px 0; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px; font-size: 14px; color: rgba(255,255,255,.45); }
 .footer-bottom a { color: rgba(255,255,255,.45); }
 
-/* Reveal animation */
-.reveal { opacity: 0; transform: translateY(18px); transition: opacity .6s ease, transform .6s ease; }
-.reveal.in { opacity: 1; transform: none; }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
-  .reveal { opacity: 1; transform: none; transition: none; }
+
   *, *::before, *::after { transition-duration: 0s !important; }
 }
 
@@ -569,3 +565,25 @@ table.compare { width: 100%; border-collapse: collapse; min-width: 620px; }
 /* Skip link */
 .skip { position: absolute; left: -9999px; top: 12px; z-index: 100; background: #fff; padding: 8px 14px; border-radius: 8px; box-shadow: var(--shadow); }
 .skip:focus { left: 16px; }
+
+/* Reveal：仅在 JS 可用时隐藏，保证无 JS 时内容仍可见 */
+.reveal { opacity: 1; transform: none; }
+.js .reveal { opacity: 0; transform: translateY(18px); transition: opacity .6s ease, transform .6s ease; }
+.js .reveal[data-in] { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: reduce) {
+  .js .reveal { opacity: 1; transform: none; transition: none; }
+}
+
+/* Form fieldset */
+fieldset.field { border: 0; padding: 0; margin: 0 0 18px; min-width: 0; }
+fieldset.field legend { display: block; font-size: 15px; font-weight: 600; color: var(--c-ink); margin-bottom: 8px; padding: 0; }
+.btn:disabled { opacity: .7; cursor: default; transform: none; }
+
+/* Utilities */
+.h2-sm { font-size: clamp(26px, 3vw, 34px); }
+.center { text-align: center; }
+.mt-28 { margin-top: 28px; }
+.mt-32 { margin-top: 32px; }
+.mt-40 { margin-top: 40px; }
+.pt-40 { padding-top: 40px; }
+.spacer-96 { height: 96px; }
