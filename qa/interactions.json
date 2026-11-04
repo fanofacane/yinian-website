@@ -1,0 +1,22 @@
+[
+  {
+    "width": 1440,
+    "menuOrNavigation": true,
+    "faqToggles": 8,
+    "contactDraft": true,
+    "dialogEscape": true,
+    "gallery": true,
+    "pageErrors": [],
+    "external": []
+  },
+  {
+    "width": 390,
+    "menuOrNavigation": true,
+    "faqToggles": 8,
+    "contactDraft": true,
+    "dialogEscape": true,
+    "gallery": false,
+    "pageErrors": [],
+    "external": []
+  }
+]

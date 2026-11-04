@@ -1,0 +1,87 @@
+[
+  {
+    "mode": "normal",
+    "width": 1440,
+    "status": 200,
+    "htmlBytes": 31769,
+    "faqAnswersInHTML": 8,
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "mode": "normal",
+    "width": 390,
+    "status": 200,
+    "htmlBytes": 31769,
+    "faqAnswersInHTML": 8,
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "mode": "no-js",
+    "width": 1440,
+    "status": 200,
+    "htmlBytes": 31769,
+    "faqAnswersInHTML": 8,
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "mode": "no-js",
+    "width": 390,
+    "status": 200,
+    "htmlBytes": 31769,
+    "faqAnswersInHTML": 8,
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "mode": "blocked-script",
+    "width": 1440,
+    "status": 200,
+    "htmlBytes": 31769,
+    "faqAnswersInHTML": 8,
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "mode": "blocked-script",
+    "width": 390,
+    "status": 200,
+    "htmlBytes": 31769,
+    "faqAnswersInHTML": 8,
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "path": "/",
+    "status": 200
+  },
+  {
+    "path": "/missing-page",
+    "status": 404
+  },
+  {
+    "path": "/deleted-case",
+    "status": 404
+  },
+  {
+    "path": "/404.html",
+    "status": 404
+  },
+  {
+    "path": "/assets/missing.jpg",
+    "status": 404
+  },
+  {
+    "path": "/robots.txt",
+    "status": 200
+  },
+  {
+    "path": "/sitemap.xml",
+    "status": 200
+  },
+  {
+    "runtimeFailureFallback": "readable"
+  }
+]

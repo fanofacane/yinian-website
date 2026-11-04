@@ -1,0 +1,134 @@
+[
+  {
+    "width": 1440,
+    "wheelIntermediate": 191,
+    "wheelEnd": 300,
+    "nav": {
+      "x": 411.7421875,
+      "y": 16,
+      "width": 616.515625,
+      "height": 52
+    },
+    "dragTargets": [
+      {
+        "target": ".framer-yblgmn",
+        "drag": [
+          45,
+          25
+        ],
+        "release": [
+          0,
+          0
+        ]
+      },
+      {
+        "target": ".framer-jotx7o",
+        "drag": [
+          45,
+          25
+        ],
+        "release": [
+          0,
+          0
+        ]
+      },
+      {
+        "target": ".framer-3maobj",
+        "drag": [
+          45,
+          25
+        ],
+        "release": [
+          0,
+          0
+        ]
+      },
+      {
+        "target": ".framer-84k9bb",
+        "drag": [
+          45,
+          25
+        ],
+        "release": [
+          0,
+          0
+        ]
+      }
+    ],
+    "continuousProcess": [
+      0.015585073441015597,
+      0.040973847353943424
+    ],
+    "faqToggles": 16,
+    "tickerPixelsInHalfSecond": 51.66000000000001,
+    "reducedMotion": true,
+    "errors": [],
+    "external": []
+  },
+  {
+    "width": 390,
+    "wheelIntermediate": 154,
+    "wheelEnd": 300,
+    "nav": {
+      "x": 20,
+      "y": 16,
+      "width": 350,
+      "height": 52
+    },
+    "dragTargets": [
+      {
+        "target": ".framer-yblgmn",
+        "drag": [
+          45,
+          25
+        ],
+        "release": [
+          0,
+          0
+        ]
+      },
+      {
+        "target": ".framer-jotx7o",
+        "drag": [
+          45,
+          25
+        ],
+        "release": [
+          0,
+          0
+        ]
+      },
+      {
+        "target": ".framer-3maobj",
+        "drag": [
+          45,
+          25
+        ],
+        "release": [
+          0,
+          0
+        ]
+      },
+      {
+        "target": ".framer-84k9bb",
+        "drag": [
+          45,
+          25
+        ],
+        "release": [
+          0,
+          0
+        ]
+      }
+    ],
+    "continuousProcess": [
+      0.019034186684887055,
+      0.039021399469957675
+    ],
+    "faqToggles": 16,
+    "tickerPixelsInHalfSecond": 51.66999999999996,
+    "reducedMotion": true,
+    "errors": [],
+    "external": []
+  }
+]

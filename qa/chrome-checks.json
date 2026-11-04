@@ -1,0 +1,46 @@
+{
+  "viewports": [
+    {
+      "width": 360,
+      "overflow": false,
+      "metricsRow": true,
+      "contactDialog": true,
+      "sidebar": true,
+      "errors": []
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "metricsRow": true,
+      "contactDialog": true,
+      "sidebar": true,
+      "errors": []
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "metricsRow": true,
+      "contactDialog": true,
+      "sidebar": true,
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "metricsRow": true,
+      "contactDialog": true,
+      "sidebar": true,
+      "errors": []
+    },
+    {
+      "width": 1920,
+      "overflow": false,
+      "metricsRow": true,
+      "contactDialog": true,
+      "sidebar": true,
+      "errors": []
+    }
+  ],
+  "404Sidebar": true,
+  "noJS": true
+}

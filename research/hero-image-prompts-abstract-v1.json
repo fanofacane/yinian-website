@@ -1,0 +1,26 @@
+{
+  "mode": "built-in image_gen",
+  "created": "2026-10-24",
+  "assets": [
+    {
+      "slug": "ai-transformation",
+      "name": "企业 AI 落地",
+      "prompt": "Use case: stylized-concept. Asset type: one premium landscape 16:9 website hero card image for Chinese enterprise AI consultancy 一念智能. Create a sophisticated photoreal 3D editorial still life symbolizing practical enterprise AI transformation. Centerpiece: a beautiful large translucent smoked-glass cube, containing a precise luminous warm-orange computational lattice, resting on a brushed dark aluminum platform. On the left, a few neatly layered ivory document-like sheets flow into the cube; on the right, three orderly pearl-white modular tiles emerge as clear structured outcomes. No visible writing on the sheets. Architectural product photography, close three-quarter camera angle, tangible glass refraction, precision-machined aluminum, subtle paper grain, soft cinematic side lighting, deep charcoal background with a warm ivory illuminated floor. Palette charcoal, silver, ivory, small restrained orange light. Strong simple silhouette readable as a small rotating hero card. Objects fill most of the composition with generous safe margins. Full bleed, no borders, no rounded corners (website applies them). No words, no logos, no humans, no robots, no brain illustrations, no blue/purple neon, no watermarks. Landscape 16:9."
+    },
+    {
+      "slug": "ai-strategy",
+      "name": "AI 战略规划",
+      "prompt": "Use case: stylized-concept. Asset type: one premium landscape 16:9 website hero card image for Chinese enterprise AI consultancy 一念智能, companion to a charcoal glass-and-metal AI image. Create a photoreal 3D architectural editorial still life symbolizing clear AI strategy and a phased business roadmap. An elegant sculptural route of five connected broad ivory and brushed-silver platforms rising in shallow steps across a dark graphite table, with one refined continuous warm-orange inset line guiding the eye along the route toward a small translucent smoked-glass monolith. Precise geometry, tactile matte ceramic and aluminum, soft studio shadows, slight elevated three-quarter perspective. Quiet architectural sophistication, minimalist composition, not a literal infographic. Neutral warm gray background, charcoal silver ivory palette with restrained orange accent. Main scene fills the frame, all important objects inside safe margins so it works as a rotated stacked card. No text, no labels, no numbers, no logos, no people, no arrows, no blue/purple neon, no watermark. Full bleed landscape 16:9, no border and no rounded corners."
+    },
+    {
+      "slug": "ai-learning",
+      "name": "团队 AI 培训",
+      "prompt": "Use case: stylized-concept. Asset type: one premium landscape 16:9 website hero card image for Chinese enterprise AI consultancy 一念智能. A beautifully art-directed photoreal 3D miniature learning studio symbolizing teams learning practical AI together: an elegant round off-white conference table with three slim open brushed-aluminum laptops arranged around it, each display a simple abstract modular interface without letters; at the center a small sculptural warm-orange translucent glass prism softly illuminates the shared workspace. A few thin ivory notebooks, charcoal stools and a frosted-glass architectural divider create physical depth. No human figures. Elevated close three-quarter camera, soft natural studio light, highly detailed tactile surfaces, restrained shadows, architectural design magazine aesthetic. Match a charcoal/ivory/silver enterprise AI visual family, orange only as small accent. Clear central focal point, uncluttered, fill most of landscape frame, safe margins for rotating hero card. No text, no company logos, no fake event signage, no robots, no blue/purple neon, no watermark. Full bleed 16:9 landscape with no border or rounded corners."
+    },
+    {
+      "slug": "ai-agents",
+      "name": "智能体协作",
+      "prompt": "Use case: stylized-concept. Asset type: one premium landscape 16:9 website hero card image for Chinese enterprise AI consultancy 一念智能. Photoreal 3D product sculpture expressing AI agents coordinating a real business workflow: four precise small brushed-aluminum and frosted-glass modules on a graphite architectural plinth, linked by fine recessed warm-orange illuminated channels. A taller smoked-glass central module orchestrates three smaller ivory modules. Inside the glass, delicate layered geometric components suggest knowledge, processing and outputs; no literal screens with writing. Elegant physical prototype, substantial and believable materials, close macro three-quarter studio camera, dramatic but soft side light, deep charcoal background with warm white highlights, clean controlled reflections. Cohesive charcoal, pearl ivory, silver and restrained orange palette. Premium editorial technology still life, strong readable forms and generous safe margins, suitable for stacked tilted website cards. No text, no labels, no logos, no humanoid robots, no brains, no sci-fi city, no blue/purple neon, no watermark. Full bleed landscape 16:9, no border or rounded corners."
+    }
+  ]
+}

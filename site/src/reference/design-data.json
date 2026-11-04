@@ -1,0 +1,291 @@
+{
+  "logo": "/assets/sevora-46ea1e7d026a.svg",
+  "backgrounds": [
+    {
+      "name": null,
+      "cls": "",
+      "bg": "repeating-linear-gradient(145deg, rgb(237, 238, 241), rgb(237, 238, 241) 1px, rgba(0, 0, 0, 0) 1px, rgba(0, 0, 0, 0) 4px)",
+      "size": "auto"
+    },
+    {
+      "name": null,
+      "cls": "",
+      "bg": "repeating-linear-gradient(145deg, rgb(36, 36, 42), rgb(36, 36, 42) 1px, rgba(0, 0, 0, 0) 1px, rgba(0, 0, 0, 0) 4px)",
+      "size": "auto"
+    }
+  ],
+  "benefits": [
+    [
+      "Clear design systems",
+      "Elevate your B2B brand with specialized design expertise, enhancing industry presence."
+    ],
+    [
+      "Websites built to perform",
+      "Dominate search results with our precision-tailored sites designed for top rankings and visibility."
+    ],
+    [
+      "Framer-ready execution",
+      "Expand and flourish with Framer's innovation and design expertise, propelling your success."
+    ]
+  ],
+  "processText": "Process\nHow the process flows with clarity\n\nA clear and collaborative workflow that moves each project from first idea to polished final result.\n\nDiscovery\n\nWe start by understanding your goals, audience, brand needs, and the direction your project should take.\n\nStrategy\n\nI define the structure, message, and creative approach before moving into the visual design stage.\n\nDirection\n\nA clear visual direction is shaped through mood, layout ideas, typography, and overall design language.\n\nDesign\n\nThe main layouts, brand elements, and digital experiences are crafted with careful attention to detail.\n\nDevelopment\n\nDesigns are turned into responsive, polished pages with smooth interactions and clean structure.\n\nDelivery\n\nFinal assets, pages, and guidelines are prepared clearly so everything is ready to launch.",
+  "processIcons": [
+    "/assets/process-0.svg",
+    "/assets/process-1.svg",
+    "/assets/process-2.svg",
+    "/assets/process-3.svg",
+    "/assets/process-4.svg",
+    "/assets/process-5.svg",
+    "/assets/process-6.svg"
+  ],
+  "faqs": [
+    {
+      "question": "How do I submit a design request?",
+      "expanded": "How do I submit a design request?\n\nYou and your team can request design work through a shared board we will set up for you in Asana. You can request as many designs as you like."
+    },
+    {
+      "question": "How does onboarding work?",
+      "expanded": "How does onboarding work?\n\nYour account manager will set up a call to discuss your design needs. After that, you’ll receive an invitation to your design board on Asana, along with instructions on how to add your design requests"
+    },
+    {
+      "question": "How fast will I receive my designs?",
+      "expanded": "How fast will I receive my designs?\n\nYou can set your own deadlines for designs but on average, we deliver a design within a couple of days."
+    },
+    {
+      "question": "Do you work at our company?",
+      "expanded": "Do you work at our company?\n\nIt may feel like it but we do not work at your company however we do stay in close touch to make sure we provide the best service possible."
+    },
+    {
+      "question": "Why not hire full-time?",
+      "expanded": "Why not hire full-time?\n\nA full-time designer can be expensive and hard to source. Your company may not have enough work to keep a full-time designer busy."
+    },
+    {
+      "question": "Can I order a one-time logo service?",
+      "expanded": "Can I order a one-time logo service?\n\nWe offer a combined All-In-One plan to help you with all your design needs. You’re welcome to upgrade for one month to get the designs you need, then return to your previous plan for the following month."
+    },
+    {
+      "question": "What tools do you use?",
+      "expanded": "What tools do you use?\n\nWe work in a wide range of design software, including Figma, Photoshop, Illustrator, After Effects, Canva, and many others."
+    },
+    {
+      "question": "What is your refund policy?",
+      "expanded": "What is your refund policy?\n\nBecause we deliver custom design work it’s not possible to issue a refund."
+    }
+  ],
+  "sevoraFonts": [
+    {
+      "text": "Discover why we stand out",
+      "font": ""
+    },
+    {
+      "text": "Designing clean, responsive websites that communicate clearly, guide visitors smoothly, and support meaningful business goals.",
+      "font": ""
+    },
+    {
+      "text": "Primary",
+      "font": "500 14px / 20px Inter, \"Inter Placeholder\", sans-serif"
+    },
+    {
+      "text": "Primary",
+      "font": "500 14px / 20px Inter, \"Inter Placeholder\", sans-serif"
+    },
+    {
+      "text": "Gray",
+      "font": "500 14px / 20px Inter, \"Inter Placeholder\", sans-serif"
+    },
+    {
+      "text": "Secondary",
+      "font": "500 14px / 20px Inter, \"Inter Placeholder\", sans-serif"
+    },
+    {
+      "text": "Secondary",
+      "font": "500 14px / 20px Inter, \"Inter Placeholder\", sans-serif"
+    },
+    {
+      "text": "Outline",
+      "font": "500 14px / 20px Inter, \"Inter Placeholder\", sans-serif"
+    },
+    {
+      "text": "Outline",
+      "font": "500 14px / 20px Inter, \"Inter Placeholder\", sans-serif"
+    },
+    {
+      "text": "Ghost",
+      "font": "500 14px / 20px Inter, \"Inter Placeholder\", sans-serif"
+    },
+    {
+      "text": "Ghost",
+      "font": "500 14px / 20px Inter, \"Inter Placeholder\", sans-serif"
+    },
+    {
+      "text": "Yellow",
+      "font": "500 14px / 20px Inter, \"Inter Placeholder\", sans-serif"
+    },
+    {
+      "text": "Dawn pink",
+      "font": "500 14px / 20px Inter, \"Inter Placeholder\", sans-serif"
+    },
+    {
+      "text": "Pink",
+      "font": "500 14px / 20px Inter, \"Inter Placeholder\", sans-serif"
+    },
+    {
+      "text": "Clear design systems",
+      "font": ""
+    },
+    {
+      "text": "Elevate your B2B brand with specialized design expertise, enhancing industry presence.",
+      "font": ""
+    },
+    {
+      "text": "Aug 3, 2026",
+      "font": "500 13px / 15.6px Inter, \"Inter Placeholder\", sans-serif"
+    },
+    {
+      "text": "Unique Visitors",
+      "font": "13px / 15.6px Inter, \"Inter Placeholder\", sans-serif"
+    },
+    {
+      "text": "Total Pageviews",
+      "font": "13px / 15.6px Inter, \"Inter Placeholder\", sans-serif"
+    },
+    {
+      "text": "9,706",
+      "font": "500 13px / 15.6px Inter, \"Inter Placeholder\", sans-serif"
+    },
+    {
+      "text": "6,816",
+      "font": "500 13px / 15.6px Inter, \"Inter Placeholder\", sans-serif"
+    },
+    {
+      "text": "Websites built to perform",
+      "font": ""
+    },
+    {
+      "text": "Dominate search results with our precision-tailored sites designed for top rankings and visibility.",
+      "font": ""
+    },
+    {
+      "text": "Framer-ready execution",
+      "font": ""
+    },
+    {
+      "text": "Expand and flourish with Framer's innovation and design expertise, propelling your success.",
+      "font": ""
+    }
+  ],
+  "heroBackgrounds": [
+    {
+      "src": "/assets/launchfolio-96e0b327bd56.jpg",
+      "alt": "",
+      "html": "<div data-framer-background-image-wrapper=\"true\" style=\"position: absolute; border-radius: inherit; corner-shape: inherit; inset: 0px;\"><img decoding=\"auto\" width=\"1920\" height=\"1080\" sizes=\"max(max((min(100vw, 1080px) - 112px) / 2, 1px), 1px)\" srcset=\"/assets/launchfolio-96e0b327bd56.jpg 512w,/assets/launchfolio-639e829b72c5.jpg 1024w,/assets/launchfolio-1d965fa8c177.jpg 1920w\" src=\"/_assets/framerusercontent.com/images/7PCwFhvE5xrLsMUpCh5h49Uvw.jpg?width=1920&amp;height=1080\" alt=\"\" style=\"display: block; width: 100%; height: 100%; border-radius: inherit; corner-shape: inherit; object-position: center center; object-fit: cover;\"></div>"
+    },
+    {
+      "src": "/assets/launchfolio-da5f07f595db.jpg",
+      "alt": "",
+      "html": "<div data-framer-background-image-wrapper=\"true\" style=\"position: absolute; border-radius: inherit; corner-shape: inherit; inset: 0px;\"><img decoding=\"auto\" width=\"2048\" height=\"1152\" sizes=\"max(max((min(100vw, 1080px) - 112px) / 2, 1px), 1px)\" srcset=\"/assets/launchfolio-da5f07f595db.jpg 512w,/assets/launchfolio-d0b924a64cdd.jpg 1024w,/assets/launchfolio-2fbaceda9996.jpg 2048w\" src=\"/_assets/framerusercontent.com/images/rnxFLnzRGTw1ZabpRyFGqa3ozfk.jpg?width=2048&amp;height=1152\" alt=\"\" style=\"display: block; width: 100%; height: 100%; border-radius: inherit; corner-shape: inherit; object-position: center center; object-fit: cover;\"></div>"
+    },
+    {
+      "src": "/assets/launchfolio-98524a16b890.jpg",
+      "alt": "",
+      "html": "<div data-framer-background-image-wrapper=\"true\" style=\"position: absolute; border-radius: inherit; corner-shape: inherit; inset: 0px;\"><img decoding=\"auto\" width=\"1920\" height=\"1080\" sizes=\"max(max((min(100vw, 1080px) - 112px) / 2, 1px), 1px)\" srcset=\"/assets/launchfolio-98524a16b890.jpg 512w,/assets/launchfolio-7077f978d9a5.jpg 1024w,/assets/launchfolio-8f31aa0960b1.jpg 1920w\" src=\"/_assets/framerusercontent.com/images/XvVafbuakoD0ArT7qYGCGqRlUyk.jpg?width=1920&amp;height=1080\" alt=\"\" style=\"display: block; width: 100%; height: 100%; border-radius: inherit; corner-shape: inherit; object-position: center center; object-fit: cover;\"></div>"
+    },
+    {
+      "src": "/assets/launchfolio-223b853e0e50.jpg",
+      "alt": "",
+      "html": "<div data-framer-background-image-wrapper=\"true\" style=\"position: absolute; border-radius: inherit; corner-shape: inherit; inset: 0px;\"><img decoding=\"auto\" width=\"2400\" height=\"1350\" sizes=\"max(max((min(100vw, 1080px) - 112px) / 2, 1px), 1px)\" srcset=\"/assets/launchfolio-223b853e0e50.jpg 512w,/assets/launchfolio-112a2f3667ea.jpg 1024w,/assets/launchfolio-3f70f6912497.jpg 2048w,/assets/launchfolio-a96ce43d13c4.jpg 2400w\" src=\"/_assets/framerusercontent.com/images/2klyY6QblLKEaQ4AxhbzXqf4PJI.jpg?width=2400&amp;height=1350\" alt=\"\" style=\"display: block; width: 100%; height: 100%; border-radius: inherit; corner-shape: inherit; object-position: center center; object-fit: cover;\"></div>"
+    }
+  ],
+  "heroImages": [
+    {
+      "src": "/assets/launchfolio-f53b53f2213e.jpg",
+      "alt": "Headshot of *Designer Name*"
+    },
+    {
+      "src": "/assets/launchfolio-49eb0e7e3305.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/assets/launchfolio-dd73d5a73259.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/assets/launchfolio-2044e6a847db.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/assets/launchfolio-9ae700fc8543.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/assets/launchfolio-a6f2476aab36.jpg",
+      "alt": ""
+    }
+  ],
+  "logos": [
+    "/assets/client-logo-0.svg",
+    "/assets/client-logo-1.svg",
+    "/assets/client-logo-2.svg",
+    "/assets/client-logo-3.svg",
+    "/assets/client-logo-4.svg",
+    "/assets/client-logo-5.svg"
+  ],
+  "testimonials": [
+    {
+      "html": "<div class=\"framer-1i06hgf\" data-framer-name=\"Container\" style=\"opacity: 1;\"><div class=\"framer-1mlu58z\" data-framer-name=\"Quote\" style=\"opacity: 1;\"><div data-framer-component-type=\"SVG\" data-framer-name=\"Quote Symbol\" class=\"framer-15g6tjo\" aria-hidden=\"true\" style=\"image-rendering: pixelated; flex-shrink: 0; opacity: 1;\"><div class=\"svgContainer\" style=\"width: 100%; height: 100%; aspect-ratio: inherit;\"><svg style=\"width:100%;height:100%;\"><use href=\"#svg10239062323\"></use></svg></div></div><div class=\"framer-10mqgxp\" data-framer-name=\"Quote\" data-framer-component-type=\"RichTextContainer\" style=\"--framer-link-text-color: rgb(0, 153, 255); --framer-link-text-decoration: underline; transform: none; opacity: 1;\"><p class=\"framer-text framer-styles-preset-4e019n\">The new UI design <strong class=\"framer-text\">cut our customer support tickets in half.</strong> It's been a game-changer for us.</p></div></div><div class=\"framer-194e1k2\" data-framer-name=\"Details / Rating\" style=\"opacity: 1;\"><div class=\"framer-191zago\" data-framer-name=\"Details\" style=\"opacity: 1;\"><div class=\"framer-1xkmb34\" data-framer-name=\"Avatar\" style=\"border-radius: 100%; opacity: 1;\"><div data-framer-background-image-wrapper=\"true\" style=\"position: absolute; border-radius: inherit; corner-shape: inherit; inset: 0px;\"><img decoding=\"auto\" width=\"76\" height=\"76\" src=\"/_assets/framerusercontent.com/images/3IIKOQ9VkCZyf0KlL2N5yBg1cQ.jpg?width=76&amp;height=76\" alt=\"\" style=\"display: block; width: 100%; height: 100%; border-radius: inherit; corner-shape: inherit; object-position: center center; object-fit: cover;\"></div></div><div class=\"framer-14ov9iu\" data-framer-name=\"Name &amp; Role\" style=\"opacity: 1;\"><div class=\"framer-1odysmb\" data-framer-component-type=\"RichTextContainer\" style=\"--framer-link-text-color: rgb(0, 153, 255); --framer-link-text-decoration: underline; transform: none; opacity: 1;\"><p class=\"framer-text framer-styles-preset-3j1c0u\" data-styles-preset=\"fdldKf5t1\" dir=\"auto\">Martina Martinez</p></div><div class=\"framer-jneg7s\" data-framer-component-type=\"RichTextContainer\" style=\"--extracted-r6o4lv: var(--token-994646e0-68ea-49d7-897a-104048558f6f, rgb(84, 84, 84)); --framer-link-text-color: rgb(0, 153, 255); --framer-link-text-decoration: underline; transform: none; opacity: 1;\"><p class=\"framer-text framer-styles-preset-455vy9\" data-styles-preset=\"xYEC_wF3E\" dir=\"auto\" style=\"--framer-text-color: var(--extracted-r6o4lv, var(--token-994646e0-68ea-49d7-897a-104048558f6f, rgb(84, 84, 84)));\">Customer Manager at SupportEase</p></div></div></div></div></div>",
+      "text": "The new UI design cut our customer support tickets in half. It's been a game-changer for us.\n\nMartina Martinez\n\nCustomer Manager at SupportEase",
+      "image": "/assets/launchfolio-051fecd67eee.jpg"
+    },
+    {
+      "html": "<div class=\"framer-1i06hgf\" data-framer-name=\"Container\" style=\"opacity: 1;\"><div class=\"framer-1mlu58z\" data-framer-name=\"Quote\" style=\"opacity: 1;\"><div data-framer-component-type=\"SVG\" data-framer-name=\"Quote Symbol\" class=\"framer-15g6tjo\" aria-hidden=\"true\" style=\"image-rendering: pixelated; flex-shrink: 0; opacity: 1;\"><div class=\"svgContainer\" style=\"width: 100%; height: 100%; aspect-ratio: inherit;\"><svg style=\"width:100%;height:100%;\"><use href=\"#svg10239062323\"></use></svg></div></div><div class=\"framer-10mqgxp\" data-framer-name=\"Quote\" data-framer-component-type=\"RichTextContainer\" style=\"--framer-link-text-color: rgb(0, 153, 255); --framer-link-text-decoration: underline; transform: none; opacity: 1;\"><p class=\"framer-text framer-styles-preset-4e019n\">Working with Joseph felt like having a seasoned design partner <strong class=\"framer-text\">who truly understood our vision for Zazzle </strong>and brought it to life in ways we hadn't even imagined.</p></div></div><div class=\"framer-194e1k2\" data-framer-name=\"Details / Rating\" style=\"opacity: 1;\"><div class=\"framer-191zago\" data-framer-name=\"Details\" style=\"opacity: 1;\"><div class=\"framer-1xkmb34\" data-framer-name=\"Avatar\" style=\"border-radius: 100%; opacity: 1;\"><div data-framer-background-image-wrapper=\"true\" style=\"position: absolute; border-radius: inherit; corner-shape: inherit; inset: 0px;\"><img decoding=\"auto\" width=\"76\" height=\"76\" src=\"/_assets/framerusercontent.com/images/wFJgmAuVHn37SCJR5MDBtfbFdY.jpg?width=76&amp;height=76\" alt=\"\" style=\"display: block; width: 100%; height: 100%; border-radius: inherit; corner-shape: inherit; object-position: center center; object-fit: cover;\"></div></div><div class=\"framer-14ov9iu\" data-framer-name=\"Name &amp; Role\" style=\"opacity: 1;\"><div class=\"framer-1odysmb\" data-framer-component-type=\"RichTextContainer\" style=\"--framer-link-text-color: rgb(0, 153, 255); --framer-link-text-decoration: underline; transform: none; opacity: 1;\"><p class=\"framer-text framer-styles-preset-3j1c0u\" data-styles-preset=\"fdldKf5t1\" dir=\"auto\">Thomas Weber</p></div><div class=\"framer-jneg7s\" data-framer-component-type=\"RichTextContainer\" style=\"--extracted-r6o4lv: var(--token-994646e0-68ea-49d7-897a-104048558f6f, rgb(84, 84, 84)); --framer-link-text-color: rgb(0, 153, 255); --framer-link-text-decoration: underline; transform: none; opacity: 1;\"><p class=\"framer-text framer-styles-preset-455vy9\" data-styles-preset=\"xYEC_wF3E\" dir=\"auto\" style=\"--framer-text-color: var(--extracted-r6o4lv, var(--token-994646e0-68ea-49d7-897a-104048558f6f, rgb(84, 84, 84)));\">Co-founder of KYMA</p></div></div></div></div></div>",
+      "text": "Working with Joseph felt like having a seasoned design partner who truly understood our vision for Zazzle and brought it to life in ways we hadn't even imagined.\n\nThomas Weber\n\nCo-founder of KYMA",
+      "image": "/assets/launchfolio-9ae700fc8543.jpg"
+    },
+    {
+      "html": "<div class=\"framer-1i06hgf\" data-framer-name=\"Container\" style=\"opacity: 1;\"><div class=\"framer-1mlu58z\" data-framer-name=\"Quote\" style=\"opacity: 1;\"><div data-framer-component-type=\"SVG\" data-framer-name=\"Quote Symbol\" class=\"framer-15g6tjo\" aria-hidden=\"true\" style=\"image-rendering: pixelated; flex-shrink: 0; opacity: 1;\"><div class=\"svgContainer\" style=\"width: 100%; height: 100%; aspect-ratio: inherit;\"><svg style=\"width:100%;height:100%;\"><use href=\"#svg10239062323\"></use></svg></div></div><div class=\"framer-10mqgxp\" data-framer-name=\"Quote\" data-framer-component-type=\"RichTextContainer\" style=\"--framer-link-text-color: rgb(0, 153, 255); --framer-link-text-decoration: underline; transform: none; opacity: 1;\"><p class=\"framer-text framer-styles-preset-4e019n\">Our website <strong class=\"framer-text\">conversion rate improved significantly</strong> thanks to Joseph's expertise.</p></div></div><div class=\"framer-194e1k2\" data-framer-name=\"Details / Rating\" style=\"opacity: 1;\"><div class=\"framer-191zago\" data-framer-name=\"Details\" style=\"opacity: 1;\"><div class=\"framer-1xkmb34\" data-framer-name=\"Avatar\" style=\"border-radius: 100%; opacity: 1;\"><div data-framer-background-image-wrapper=\"true\" style=\"position: absolute; border-radius: inherit; corner-shape: inherit; inset: 0px;\"><img decoding=\"auto\" width=\"76\" height=\"76\" src=\"/_assets/framerusercontent.com/images/9GxBhKhBKO9rBguUErEAr1S5msg.jpg?width=76&amp;height=76\" alt=\"\" style=\"display: block; width: 100%; height: 100%; border-radius: inherit; corner-shape: inherit; object-position: center center; object-fit: cover;\"></div></div><div class=\"framer-14ov9iu\" data-framer-name=\"Name &amp; Role\" style=\"opacity: 1;\"><div class=\"framer-1odysmb\" data-framer-component-type=\"RichTextContainer\" style=\"--framer-link-text-color: rgb(0, 153, 255); --framer-link-text-decoration: underline; transform: none; opacity: 1;\"><p class=\"framer-text framer-styles-preset-3j1c0u\" data-styles-preset=\"fdldKf5t1\" dir=\"auto\">Ben Harper</p></div><div class=\"framer-jneg7s\" data-framer-component-type=\"RichTextContainer\" style=\"--extracted-r6o4lv: var(--token-994646e0-68ea-49d7-897a-104048558f6f, rgb(84, 84, 84)); --framer-link-text-color: rgb(0, 153, 255); --framer-link-text-decoration: underline; transform: none; opacity: 1;\"><p class=\"framer-text framer-styles-preset-455vy9\" data-styles-preset=\"xYEC_wF3E\" dir=\"auto\" style=\"--framer-text-color: var(--extracted-r6o4lv, var(--token-994646e0-68ea-49d7-897a-104048558f6f, rgb(84, 84, 84)));\">CTO of Nexus</p></div></div></div></div></div>",
+      "text": "Our website conversion rate improved significantly thanks to Joseph's expertise.\n\nBen Harper\n\nCTO of Nexus",
+      "image": "/assets/launchfolio-752f243fa2f7.jpg"
+    },
+    {
+      "html": "<div class=\"framer-1i06hgf\" data-framer-name=\"Container\" style=\"opacity: 1;\"><div class=\"framer-1mlu58z\" data-framer-name=\"Quote\" style=\"opacity: 1;\"><div data-framer-component-type=\"SVG\" data-framer-name=\"Quote Symbol\" class=\"framer-15g6tjo\" aria-hidden=\"true\" style=\"image-rendering: pixelated; flex-shrink: 0; opacity: 1;\"><div class=\"svgContainer\" style=\"width: 100%; height: 100%; aspect-ratio: inherit;\"><svg style=\"width:100%;height:100%;\"><use href=\"#svg10239062323\"></use></svg></div></div><div class=\"framer-10mqgxp\" data-framer-name=\"Quote\" data-framer-component-type=\"RichTextContainer\" style=\"--framer-link-text-color: rgb(0, 153, 255); --framer-link-text-decoration: underline; transform: none; opacity: 1;\"><p class=\"framer-text framer-styles-preset-4e019n\">Joseph's design approach brought clarity to our complex data visualizations. Our users are thrilled!</p></div></div><div class=\"framer-194e1k2\" data-framer-name=\"Details / Rating\" style=\"opacity: 1;\"><div class=\"framer-191zago\" data-framer-name=\"Details\" style=\"opacity: 1;\"><div class=\"framer-1xkmb34\" data-framer-name=\"Avatar\" style=\"border-radius: 100%; opacity: 1;\"><div data-framer-background-image-wrapper=\"true\" style=\"position: absolute; border-radius: inherit; corner-shape: inherit; inset: 0px;\"><img decoding=\"auto\" width=\"76\" height=\"76\" src=\"/_assets/framerusercontent.com/images/Ua8czSsCWvNqdtO61P3LQNscwQo.jpg?width=76&amp;height=76\" alt=\"\" style=\"display: block; width: 100%; height: 100%; border-radius: inherit; corner-shape: inherit; object-position: center center; object-fit: cover;\"></div></div><div class=\"framer-14ov9iu\" data-framer-name=\"Name &amp; Role\" style=\"opacity: 1;\"><div class=\"framer-1odysmb\" data-framer-component-type=\"RichTextContainer\" style=\"--framer-link-text-color: rgb(0, 153, 255); --framer-link-text-decoration: underline; transform: none; opacity: 1;\"><p class=\"framer-text framer-styles-preset-3j1c0u\" data-styles-preset=\"fdldKf5t1\" dir=\"auto\">Michael Wong</p></div><div class=\"framer-jneg7s\" data-framer-component-type=\"RichTextContainer\" style=\"--extracted-r6o4lv: var(--token-994646e0-68ea-49d7-897a-104048558f6f, rgb(84, 84, 84)); --framer-link-text-color: rgb(0, 153, 255); --framer-link-text-decoration: underline; transform: none; opacity: 1;\"><p class=\"framer-text framer-styles-preset-455vy9\" data-styles-preset=\"xYEC_wF3E\" dir=\"auto\" style=\"--framer-text-color: var(--extracted-r6o4lv, var(--token-994646e0-68ea-49d7-897a-104048558f6f, rgb(84, 84, 84)));\">Data Scientist at DataSphere</p></div></div></div></div></div>",
+      "text": "Joseph's design approach brought clarity to our complex data visualizations. Our users are thrilled!\n\nMichael Wong\n\nData Scientist at DataSphere",
+      "image": "/assets/launchfolio-d30cab25aa62.jpg"
+    },
+    {
+      "html": "<div class=\"framer-1i06hgf\" data-framer-name=\"Container\" style=\"opacity: 1;\"><div class=\"framer-1mlu58z\" data-framer-name=\"Quote\" style=\"opacity: 1;\"><div data-framer-component-type=\"SVG\" data-framer-name=\"Quote Symbol\" class=\"framer-15g6tjo\" aria-hidden=\"true\" style=\"image-rendering: pixelated; flex-shrink: 0; opacity: 1;\"><div class=\"svgContainer\" style=\"width: 100%; height: 100%; aspect-ratio: inherit;\"><svg style=\"width:100%;height:100%;\"><use href=\"#svg10239062323\"></use></svg></div></div><div class=\"framer-10mqgxp\" data-framer-name=\"Quote\" data-framer-component-type=\"RichTextContainer\" style=\"--framer-link-text-color: rgb(0, 153, 255); --framer-link-text-decoration: underline; transform: none; opacity: 1;\"><p class=\"framer-text framer-styles-preset-4e019n\">The rebranding exceeded our expectations. <strong class=\"framer-text\">It's given us a competitive edge in our industry.</strong></p></div></div><div class=\"framer-194e1k2\" data-framer-name=\"Details / Rating\" style=\"opacity: 1;\"><div class=\"framer-191zago\" data-framer-name=\"Details\" style=\"opacity: 1;\"><div class=\"framer-1xkmb34\" data-framer-name=\"Avatar\" style=\"border-radius: 100%; opacity: 1;\"><div data-framer-background-image-wrapper=\"true\" style=\"position: absolute; border-radius: inherit; corner-shape: inherit; inset: 0px;\"><img decoding=\"auto\" width=\"76\" height=\"76\" src=\"/_assets/framerusercontent.com/images/lAY61a3VYJBYnJJvnRiHal534g.jpg?width=76&amp;height=76\" alt=\"\" style=\"display: block; width: 100%; height: 100%; border-radius: inherit; corner-shape: inherit; object-position: center center; object-fit: cover;\"></div></div><div class=\"framer-14ov9iu\" data-framer-name=\"Name &amp; Role\" style=\"opacity: 1;\"><div class=\"framer-1odysmb\" data-framer-component-type=\"RichTextContainer\" style=\"--framer-link-text-color: rgb(0, 153, 255); --framer-link-text-decoration: underline; transform: none; opacity: 1;\"><p class=\"framer-text framer-styles-preset-3j1c0u\" data-styles-preset=\"fdldKf5t1\" dir=\"auto\">Natalie Rivera</p></div><div class=\"framer-jneg7s\" data-framer-component-type=\"RichTextContainer\" style=\"--extracted-r6o4lv: var(--token-994646e0-68ea-49d7-897a-104048558f6f, rgb(84, 84, 84)); --framer-link-text-color: rgb(0, 153, 255); --framer-link-text-decoration: underline; transform: none; opacity: 1;\"><p class=\"framer-text framer-styles-preset-455vy9\" data-styles-preset=\"xYEC_wF3E\" dir=\"auto\" style=\"--framer-text-color: var(--extracted-r6o4lv, var(--token-994646e0-68ea-49d7-897a-104048558f6f, rgb(84, 84, 84)));\">Brand Manager at UnityBrands</p></div></div></div></div></div>",
+      "text": "The rebranding exceeded our expectations. It's given us a competitive edge in our industry.\n\nNatalie Rivera\n\nBrand Manager at UnityBrands",
+      "image": "/assets/launchfolio-e644717aa8b0.jpg"
+    },
+    {
+      "html": "<div class=\"framer-1i06hgf\" data-framer-name=\"Container\" style=\"opacity: 1;\"><div class=\"framer-1mlu58z\" data-framer-name=\"Quote\" style=\"opacity: 1;\"><div data-framer-component-type=\"SVG\" data-framer-name=\"Quote Symbol\" class=\"framer-15g6tjo\" aria-hidden=\"true\" style=\"image-rendering: pixelated; flex-shrink: 0; opacity: 1;\"><div class=\"svgContainer\" style=\"width: 100%; height: 100%; aspect-ratio: inherit;\"><svg style=\"width:100%;height:100%;\"><use href=\"#svg10239062323\"></use></svg></div></div><div class=\"framer-10mqgxp\" data-framer-name=\"Quote\" data-framer-component-type=\"RichTextContainer\" style=\"--framer-link-text-color: rgb(0, 153, 255); --framer-link-text-decoration: underline; transform: none; opacity: 1;\"><p class=\"framer-text framer-styles-preset-4e019n\">The redesign transformed our brand image. <strong class=\"framer-text\">We've seen a 30% increase in engagement</strong> since launch.</p></div></div><div class=\"framer-194e1k2\" data-framer-name=\"Details / Rating\" style=\"opacity: 1;\"><div class=\"framer-191zago\" data-framer-name=\"Details\" style=\"opacity: 1;\"><div class=\"framer-1xkmb34\" data-framer-name=\"Avatar\" style=\"border-radius: 100%; opacity: 1;\"><div data-framer-background-image-wrapper=\"true\" style=\"position: absolute; border-radius: inherit; corner-shape: inherit; inset: 0px;\"><img decoding=\"auto\" width=\"76\" height=\"76\" src=\"/_assets/framerusercontent.com/images/v6i3NQRMklaSho2NutbJ0C5YGtA.jpg?width=76&amp;height=76\" alt=\"\" style=\"display: block; width: 100%; height: 100%; border-radius: inherit; corner-shape: inherit; object-position: center center; object-fit: cover;\"></div></div><div class=\"framer-14ov9iu\" data-framer-name=\"Name &amp; Role\" style=\"opacity: 1;\"><div class=\"framer-1odysmb\" data-framer-component-type=\"RichTextContainer\" style=\"--framer-link-text-color: rgb(0, 153, 255); --framer-link-text-decoration: underline; transform: none; opacity: 1;\"><p class=\"framer-text framer-styles-preset-3j1c0u\" data-styles-preset=\"fdldKf5t1\" dir=\"auto\">Emma Kraft</p></div><div class=\"framer-jneg7s\" data-framer-component-type=\"RichTextContainer\" style=\"--extracted-r6o4lv: var(--token-994646e0-68ea-49d7-897a-104048558f6f, rgb(84, 84, 84)); --framer-link-text-color: rgb(0, 153, 255); --framer-link-text-decoration: underline; transform: none; opacity: 1;\"><p class=\"framer-text framer-styles-preset-455vy9\" data-styles-preset=\"xYEC_wF3E\" dir=\"auto\" style=\"--framer-text-color: var(--extracted-r6o4lv, var(--token-994646e0-68ea-49d7-897a-104048558f6f, rgb(84, 84, 84)));\">CMO of TechVista</p></div></div></div></div></div>",
+      "text": "The redesign transformed our brand image. We've seen a 30% increase in engagement since launch.\n\nEmma Kraft\n\nCMO of TechVista",
+      "image": "/assets/launchfolio-314a24b817f2.jpg"
+    }
+  ],
+  "launchFonts": [
+    {
+      "text": "Available for August'25",
+      "font": "600 12px / 13.44px Switzer, \"Switzer Placeholder\", sans-serif"
+    },
+    {
+      "text": "Design that \ndelivers results.",
+      "font": "500 72px / 68.4px Switzer, \"Switzer Placeholder\", sans-serif"
+    },
+    {
+      "text": "Strategic design that drives growth, not just looks good. I create everything your brand needs to attract customers and turn them into sales.",
+      "font": "500 18px / 25.2px Switzer, \"Switzer Placeholder\", sans-serif"
+    },
+    {
+      "text": "You",
+      "font": "600 12px / 13.44px Switzer, \"Switzer Placeholder\", sans-serif"
+    },
+    {
+      "text": "Book a call with me",
+      "font": "600 14px / 15.68px Switzer, \"Switzer Placeholder\", sans-serif"
+    },
+    {
+      "text": "99+ Happy clients",
+      "font": "600 14px / 15.68px Switzer, \"Switzer Placeholder\", sans-serif"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+[
+  {
+    "name": "企业 AI 工作台",
+    "alt": "企业 AI 工作台场景示意，AI 生成素材",
+    "image": "/assets/yinian-business-workbench-v2-1024.webp",
+    "fullImage": "/assets/yinian-business-workbench-v2-1672.webp",
+    "srcSet": "/assets/yinian-business-workbench-v2-640.webp 640w, /assets/yinian-business-workbench-v2-1024.webp 1024w, /assets/yinian-business-workbench-v2-1672.webp 1672w",
+    "width": 1672,
+    "height": 941,
+    "source": "assets\\generated-hero\\business-workbench-v2.png",
+    "variants": [
+      {
+        "src": "/assets/yinian-business-workbench-v2-640.webp",
+        "width": 640,
+        "bytes": 30790
+      },
+      {
+        "src": "/assets/yinian-business-workbench-v2-1024.webp",
+        "width": 1024,
+        "bytes": 60306
+      },
+      {
+        "src": "/assets/yinian-business-workbench-v2-1672.webp",
+        "width": 1672,
+        "bytes": 117026
+      }
+    ]
+  },
+  {
+    "name": "企业 AI 培训实操",
+    "alt": "企业 AI 培训实操场景示意，AI 生成素材",
+    "image": "/assets/yinian-business-training-v2-1024.webp",
+    "fullImage": "/assets/yinian-business-training-v2-1672.webp",
+    "srcSet": "/assets/yinian-business-training-v2-640.webp 640w, /assets/yinian-business-training-v2-1024.webp 1024w, /assets/yinian-business-training-v2-1672.webp 1672w",
+    "width": 1672,
+    "height": 941,
+    "source": "assets\\generated-hero\\business-training-v2.png",
+    "variants": [
+      {
+        "src": "/assets/yinian-business-training-v2-640.webp",
+        "width": 640,
+        "bytes": 35600
+      },
+      {
+        "src": "/assets/yinian-business-training-v2-1024.webp",
+        "width": 1024,
+        "bytes": 67762
+      },
+      {
+        "src": "/assets/yinian-business-training-v2-1672.webp",
+        "width": 1672,
+        "bytes": 127182
+      }
+    ]
+  },
+  {
+    "name": "业务流程自动化",
+    "alt": "业务流程自动化场景示意，AI 生成素材",
+    "image": "/assets/yinian-business-workflow-v2-1024.webp",
+    "fullImage": "/assets/yinian-business-workflow-v2-1672.webp",
+    "srcSet": "/assets/yinian-business-workflow-v2-640.webp 640w, /assets/yinian-business-workflow-v2-1024.webp 1024w, /assets/yinian-business-workflow-v2-1672.webp 1672w",
+    "width": 1672,
+    "height": 941,
+    "source": "assets\\generated-hero\\business-workflow-v2.png",
+    "variants": [
+      {
+        "src": "/assets/yinian-business-workflow-v2-640.webp",
+        "width": 640,
+        "bytes": 25428
+      },
+      {
+        "src": "/assets/yinian-business-workflow-v2-1024.webp",
+        "width": 1024,
+        "bytes": 47504
+      },
+      {
+        "src": "/assets/yinian-business-workflow-v2-1672.webp",
+        "width": 1672,
+        "bytes": 92090
+      }
+    ]
+  },
+  {
+    "name": "企业知识库与智能体",
+    "alt": "企业知识库与智能体场景示意，AI 生成素材",
+    "image": "/assets/yinian-business-knowledge-v2-1024.webp",
+    "fullImage": "/assets/yinian-business-knowledge-v2-1672.webp",
+    "srcSet": "/assets/yinian-business-knowledge-v2-640.webp 640w, /assets/yinian-business-knowledge-v2-1024.webp 1024w, /assets/yinian-business-knowledge-v2-1672.webp 1672w",
+    "width": 1672,
+    "height": 941,
+    "source": "assets\\generated-hero\\business-knowledge-v2.png",
+    "variants": [
+      {
+        "src": "/assets/yinian-business-knowledge-v2-640.webp",
+        "width": 640,
+        "bytes": 28420
+      },
+      {
+        "src": "/assets/yinian-business-knowledge-v2-1024.webp",
+        "width": 1024,
+        "bytes": 53920
+      },
+      {
+        "src": "/assets/yinian-business-knowledge-v2-1672.webp",
+        "width": 1672,
+        "bytes": 100804
+      }
+    ]
+  }
+]

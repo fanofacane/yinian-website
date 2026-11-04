@@ -1,0 +1,16 @@
+{
+  "touchPointer": "coarse",
+  "menuAnchor": true,
+  "drag": [
+    45,
+    25
+  ],
+  "release": [
+    0,
+    0
+  ],
+  "reviewTouchScroll": 205,
+  "faqTap": true,
+  "cursorHidden": true,
+  "errors": []
+}

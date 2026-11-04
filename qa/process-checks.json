@@ -1,0 +1,247 @@
+[
+  {
+    "width": 1440,
+    "before": {
+      "active": false,
+      "opacity": 0.8,
+      "iconOpacity": 0.8,
+      "gap": "8px",
+      "padding": "24px 24px 24px 88px"
+    },
+    "during": {
+      "active": true,
+      "opacity": 0.911235,
+      "iconOpacity": 1,
+      "gap": "8px",
+      "padding": "24px 24px 24px 88px"
+    },
+    "after": {
+      "active": true,
+      "opacity": 1,
+      "iconOpacity": 1,
+      "gap": "8px",
+      "padding": "24px 24px 24px 88px"
+    },
+    "reverse": {
+      "active": false,
+      "opacity": 0.8,
+      "iconOpacity": 0.8,
+      "gap": "8px",
+      "padding": "24px 24px 24px 88px"
+    },
+    "shape": {
+      "width": 576,
+      "iconSize": 40,
+      "iconOffset": [
+        24,
+        24
+      ],
+      "trackStart": 59,
+      "trackWidth": 2,
+      "gap": "16px",
+      "font": "Switzer, sans-serif",
+      "overflow": false
+    },
+    "progress": [
+      0.3641663587469721,
+      0.3904421726813647
+    ],
+    "errors": []
+  },
+  {
+    "width": 390,
+    "before": {
+      "active": false,
+      "opacity": 0.8,
+      "iconOpacity": 0.8,
+      "gap": "8px",
+      "padding": "24px 24px 24px 88px"
+    },
+    "during": {
+      "active": true,
+      "opacity": 0.911235,
+      "iconOpacity": 1,
+      "gap": "5.77529px",
+      "padding": "24px 24px 24px 88px"
+    },
+    "after": {
+      "active": true,
+      "opacity": 1,
+      "iconOpacity": 1,
+      "gap": "4px",
+      "padding": "24px 24px 24px 88px"
+    },
+    "reverse": {
+      "active": false,
+      "opacity": 0.8,
+      "iconOpacity": 0.8,
+      "gap": "8px",
+      "padding": "24px 24px 24px 88px"
+    },
+    "shape": {
+      "width": 358,
+      "iconSize": 40,
+      "iconOffset": [
+        24,
+        24
+      ],
+      "trackStart": 59,
+      "trackWidth": 2,
+      "gap": "8px",
+      "font": "Switzer, sans-serif",
+      "overflow": false
+    },
+    "progress": [
+      0.35410628984869985,
+      0.3796894049927048
+    ],
+    "errors": []
+  },
+  {
+    "width": 768,
+    "before": {
+      "active": false,
+      "opacity": 0.8,
+      "iconOpacity": 0.8,
+      "gap": "8px",
+      "padding": "24px 24px 24px 88px"
+    },
+    "during": {
+      "active": true,
+      "opacity": 0.911143,
+      "iconOpacity": 1,
+      "gap": "5.77714px",
+      "padding": "24px 24px 24px 88px"
+    },
+    "after": {
+      "active": true,
+      "opacity": 1,
+      "iconOpacity": 1,
+      "gap": "4px",
+      "padding": "24px 24px 24px 88px"
+    },
+    "reverse": {
+      "active": false,
+      "opacity": 0.8,
+      "iconOpacity": 0.8,
+      "gap": "8px",
+      "padding": "24px 24px 24px 88px"
+    },
+    "shape": {
+      "width": 736,
+      "iconSize": 40,
+      "iconOffset": [
+        24,
+        24
+      ],
+      "trackStart": 59,
+      "trackWidth": 2,
+      "gap": "8px",
+      "font": "Switzer, sans-serif",
+      "overflow": false
+    },
+    "progress": [
+      0.39085280045032367,
+      0.4268786940613566
+    ],
+    "errors": []
+  },
+  {
+    "width": 1024,
+    "before": {
+      "active": false,
+      "opacity": 0.8,
+      "iconOpacity": 0.8,
+      "gap": "8px",
+      "padding": "24px 24px 24px 88px"
+    },
+    "during": {
+      "active": true,
+      "opacity": 0.911315,
+      "iconOpacity": 1,
+      "gap": "8px",
+      "padding": "24px 24px 24px 88px"
+    },
+    "after": {
+      "active": true,
+      "opacity": 1,
+      "iconOpacity": 1,
+      "gap": "8px",
+      "padding": "24px 24px 24px 88px"
+    },
+    "reverse": {
+      "active": false,
+      "opacity": 0.8,
+      "iconOpacity": 0.8,
+      "gap": "8px",
+      "padding": "24px 24px 24px 88px"
+    },
+    "shape": {
+      "width": 976,
+      "iconSize": 40,
+      "iconOffset": [
+        24,
+        24
+      ],
+      "trackStart": 59,
+      "trackWidth": 2,
+      "gap": "16px",
+      "font": "Switzer, sans-serif",
+      "overflow": false
+    },
+    "progress": [
+      0.3741777573810616,
+      0.4068125031869869
+    ],
+    "errors": []
+  },
+  {
+    "width": 1920,
+    "before": {
+      "active": false,
+      "opacity": 0.8,
+      "iconOpacity": 0.8,
+      "gap": "8px",
+      "padding": "24px 24px 24px 88px"
+    },
+    "during": {
+      "active": true,
+      "opacity": 0.911235,
+      "iconOpacity": 1,
+      "gap": "8px",
+      "padding": "24px 24px 24px 88px"
+    },
+    "after": {
+      "active": true,
+      "opacity": 1,
+      "iconOpacity": 1,
+      "gap": "8px",
+      "padding": "24px 24px 24px 88px"
+    },
+    "reverse": {
+      "active": false,
+      "opacity": 0.8,
+      "iconOpacity": 0.8,
+      "gap": "8px",
+      "padding": "24px 24px 24px 88px"
+    },
+    "shape": {
+      "width": 576,
+      "iconSize": 40,
+      "iconOffset": [
+        24,
+        24
+      ],
+      "trackStart": 59,
+      "trackWidth": 2,
+      "gap": "16px",
+      "font": "Switzer, sans-serif",
+      "overflow": false
+    },
+    "progress": [
+      0.3642484706655171,
+      0.3905242845999097
+    ],
+    "errors": []
+  }
+]

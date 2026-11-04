@@ -1,0 +1,37 @@
+[
+  {
+    "width": 360,
+    "overflow": false,
+    "hydrated": true,
+    "errors": [],
+    "galleryDialog": false
+  },
+  {
+    "width": 390,
+    "overflow": false,
+    "hydrated": true,
+    "errors": [],
+    "galleryDialog": false
+  },
+  {
+    "width": 768,
+    "overflow": false,
+    "hydrated": true,
+    "errors": [],
+    "galleryDialog": false
+  },
+  {
+    "width": 1440,
+    "overflow": false,
+    "hydrated": true,
+    "errors": [],
+    "galleryDialog": true
+  },
+  {
+    "width": 1920,
+    "overflow": false,
+    "hydrated": true,
+    "errors": [],
+    "galleryDialog": true
+  }
+]

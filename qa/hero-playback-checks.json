@@ -1,0 +1,45 @@
+{
+  "animation": {
+    "early": [
+      "0+",
+      "0%+",
+      "0%+",
+      "0+"
+    ],
+    "final": [
+      "150+",
+      "50%+",
+      "98%+",
+      "130+"
+    ],
+    "fourImageCycle": true,
+    "hoverPause": true,
+    "imageDialog": true,
+    "errors": []
+  },
+  "390": {
+    "x": 20,
+    "y": 76,
+    "width": 350,
+    "height": 438.96875
+  },
+  "1024": {
+    "x": 24,
+    "y": 76,
+    "width": 976,
+    "height": 538.9375
+  },
+  "1440": {
+    "x": 83,
+    "y": 88,
+    "width": 1274,
+    "height": 575.75
+  },
+  "1920": {
+    "x": 155,
+    "y": 88,
+    "width": 1610,
+    "height": 610
+  },
+  "noJS": "final values and all four image links present"
+}

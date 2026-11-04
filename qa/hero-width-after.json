@@ -1,0 +1,178 @@
+{
+  "390": {
+    ".hero-layout": {
+      "x": 20,
+      "y": 76,
+      "width": 350,
+      "height": 438.96875
+    },
+    ".navigation": {
+      "x": 20,
+      "y": 0,
+      "width": 350,
+      "height": 76
+    },
+    ".client-strip-inner": {
+      "x": 20,
+      "y": 515.96875,
+      "width": 350,
+      "height": 151.671875
+    },
+    "#benefits": {
+      "x": 0,
+      "y": 668.640625,
+      "width": 390,
+      "height": 1705.15625
+    },
+    "#process": {
+      "x": 0,
+      "y": 2373.796875,
+      "width": 390,
+      "height": 1155.15625
+    },
+    "#reviews": {
+      "x": 0,
+      "y": 3528.953125,
+      "width": 390,
+      "height": 594.703125
+    },
+    "#faqs": {
+      "x": 0,
+      "y": 4123.65625,
+      "width": 390,
+      "height": 868
+    }
+  },
+  "1024": {
+    ".hero-layout": {
+      "x": 24,
+      "y": 76,
+      "width": 976,
+      "height": 538.9375
+    },
+    ".navigation": {
+      "x": 24,
+      "y": 0,
+      "width": 976,
+      "height": 76
+    },
+    ".client-strip-inner": {
+      "x": 24,
+      "y": 615.9375,
+      "width": 976,
+      "height": 106
+    },
+    "#benefits": {
+      "x": 0,
+      "y": 722.9375,
+      "width": 1024,
+      "height": 823.125
+    },
+    "#process": {
+      "x": 0,
+      "y": 1546.0625,
+      "width": 1024,
+      "height": 1126.0625
+    },
+    "#reviews": {
+      "x": 0,
+      "y": 2672.125,
+      "width": 1024,
+      "height": 957.8125
+    },
+    "#faqs": {
+      "x": 0,
+      "y": 3629.9375,
+      "width": 1024,
+      "height": 812
+    }
+  },
+  "1440": {
+    ".hero-layout": {
+      "x": 48,
+      "y": 88,
+      "width": 1344,
+      "height": 575.75
+    },
+    ".navigation": {
+      "x": 120,
+      "y": 0,
+      "width": 1200,
+      "height": 88
+    },
+    ".client-strip-inner": {
+      "x": 120,
+      "y": 664.75,
+      "width": 1200,
+      "height": 106
+    },
+    "#benefits": {
+      "x": 0,
+      "y": 771.75,
+      "width": 1440,
+      "height": 903.71875
+    },
+    "#process": {
+      "x": 0,
+      "y": 1675.46875,
+      "width": 1440,
+      "height": 966
+    },
+    "#reviews": {
+      "x": 0,
+      "y": 2641.46875,
+      "width": 1440,
+      "height": 982.78125
+    },
+    "#faqs": {
+      "x": 0,
+      "y": 3624.25,
+      "width": 1440,
+      "height": 832
+    }
+  },
+  "1920": {
+    ".hero-layout": {
+      "x": 120,
+      "y": 88,
+      "width": 1680,
+      "height": 610
+    },
+    ".navigation": {
+      "x": 240,
+      "y": 0,
+      "width": 1440,
+      "height": 88
+    },
+    ".client-strip-inner": {
+      "x": 240,
+      "y": 699,
+      "width": 1440,
+      "height": 106
+    },
+    "#benefits": {
+      "x": 0,
+      "y": 806,
+      "width": 1920,
+      "height": 990.25
+    },
+    "#process": {
+      "x": 0,
+      "y": 1796.25,
+      "width": 1920,
+      "height": 966
+    },
+    "#reviews": {
+      "x": 0,
+      "y": 2762.25,
+      "width": 1920,
+      "height": 1103.75
+    },
+    "#faqs": {
+      "x": 0,
+      "y": 3866,
+      "width": 1920,
+      "height": 832
+    }
+  }
+}

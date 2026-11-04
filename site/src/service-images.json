@@ -1,0 +1,80 @@
+[
+  {
+    "name": "老板课",
+    "alt": "老板课场景示意：企业负责人在导师指导下使用 AI 分析经营问题，AI 生成图片",
+    "src": "/assets/yinian-service-boss-course-800.webp",
+    "srcSet": "/assets/yinian-service-boss-course-480.webp 480w, /assets/yinian-service-boss-course-800.webp 800w, /assets/yinian-service-boss-course-1200.webp 1200w",
+    "width": 1448,
+    "height": 1086,
+    "source": "assets/generated-services/service-boss-course.png",
+    "variants": [
+      {
+        "src": "/assets/yinian-service-boss-course-480.webp",
+        "width": 480,
+        "bytes": 27342
+      },
+      {
+        "src": "/assets/yinian-service-boss-course-800.webp",
+        "width": 800,
+        "bytes": 53800
+      },
+      {
+        "src": "/assets/yinian-service-boss-course-1200.webp",
+        "width": 1200,
+        "bytes": 93768
+      }
+    ]
+  },
+  {
+    "name": "方案班",
+    "alt": "方案班场景示意：团队共同梳理业务问题、筛选 AI 场景并制定实施计划，AI 生成图片",
+    "src": "/assets/yinian-service-solution-workshop-800.webp",
+    "srcSet": "/assets/yinian-service-solution-workshop-480.webp 480w, /assets/yinian-service-solution-workshop-800.webp 800w, /assets/yinian-service-solution-workshop-1200.webp 1200w",
+    "width": 1448,
+    "height": 1086,
+    "source": "assets/generated-services/service-solution-workshop.png",
+    "variants": [
+      {
+        "src": "/assets/yinian-service-solution-workshop-480.webp",
+        "width": 480,
+        "bytes": 30406
+      },
+      {
+        "src": "/assets/yinian-service-solution-workshop-800.webp",
+        "width": 800,
+        "bytes": 62088
+      },
+      {
+        "src": "/assets/yinian-service-solution-workshop-1200.webp",
+        "width": 1200,
+        "bytes": 103754
+      }
+    ]
+  },
+  {
+    "name": "企业 AI 落地",
+    "alt": "企业 AI 落地场景示意：实施顾问与业务员工共同测试企业知识库和审批流程，AI 生成图片",
+    "src": "/assets/yinian-service-enterprise-delivery-800.webp",
+    "srcSet": "/assets/yinian-service-enterprise-delivery-480.webp 480w, /assets/yinian-service-enterprise-delivery-800.webp 800w, /assets/yinian-service-enterprise-delivery-1200.webp 1200w",
+    "width": 1448,
+    "height": 1086,
+    "source": "assets/generated-services/service-enterprise-delivery.png",
+    "variants": [
+      {
+        "src": "/assets/yinian-service-enterprise-delivery-480.webp",
+        "width": 480,
+        "bytes": 32108
+      },
+      {
+        "src": "/assets/yinian-service-enterprise-delivery-800.webp",
+        "width": 800,
+        "bytes": 64820
+      },
+      {
+        "src": "/assets/yinian-service-enterprise-delivery-1200.webp",
+        "width": 1200,
+        "bytes": 109090
+      }
+    ]
+  }
+]

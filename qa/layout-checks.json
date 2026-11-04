@@ -1,0 +1,647 @@
+[
+  {
+    "overflow": false,
+    "headings": [
+      {
+        "text": "Design thatdelivers results.",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Discover why we stand out",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Clear design systems",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Websites built to perform",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Framer-ready execution",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "How the process flows with clarity",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Discovery",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Strategy",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Direction",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Design",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Development",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Delivery",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Hear from what myclients have to say.",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Martina Martinez",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Thomas Weber",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Ben Harper",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Michael Wong",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Natalie Rivera",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Emma Kraft",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Explore our FAQs",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "How do I submit a design request?",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "How does onboarding work?",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "How fast will I receive my designs?",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Do you work at our company?",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Why not hire full-time?",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Can I order a one-time logo service?",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "What tools do you use?",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "What is your refund policy?",
+        "font": "Switzer, sans-serif"
+      }
+    ],
+    "broken": [],
+    "sections": [
+      "home",
+      "benefits",
+      "process",
+      "reviews",
+      "faqs"
+    ],
+    "footer": false,
+    "width": 1440,
+    "errors": [],
+    "failed": []
+  },
+  {
+    "overflow": false,
+    "headings": [
+      {
+        "text": "Design thatdelivers results.",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Discover why we stand out",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Clear design systems",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Websites built to perform",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Framer-ready execution",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "How the process flows with clarity",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Discovery",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Strategy",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Direction",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Design",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Development",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Delivery",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Hear from what myclients have to say.",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Martina Martinez",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Thomas Weber",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Ben Harper",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Michael Wong",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Natalie Rivera",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Emma Kraft",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Explore our FAQs",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "How do I submit a design request?",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "How does onboarding work?",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "How fast will I receive my designs?",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Do you work at our company?",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Why not hire full-time?",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Can I order a one-time logo service?",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "What tools do you use?",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "What is your refund policy?",
+        "font": "Switzer, sans-serif"
+      }
+    ],
+    "broken": [],
+    "sections": [
+      "home",
+      "benefits",
+      "process",
+      "reviews",
+      "faqs"
+    ],
+    "footer": false,
+    "width": 390,
+    "errors": [],
+    "failed": []
+  },
+  {
+    "overflow": false,
+    "headings": [
+      {
+        "text": "Design thatdelivers results.",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Discover why we stand out",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Clear design systems",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Websites built to perform",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Framer-ready execution",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "How the process flows with clarity",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Discovery",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Strategy",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Direction",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Design",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Development",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Delivery",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Hear from what myclients have to say.",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Martina Martinez",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Thomas Weber",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Ben Harper",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Michael Wong",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Natalie Rivera",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Emma Kraft",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Explore our FAQs",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "How do I submit a design request?",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "How does onboarding work?",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "How fast will I receive my designs?",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Do you work at our company?",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Why not hire full-time?",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Can I order a one-time logo service?",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "What tools do you use?",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "What is your refund policy?",
+        "font": "Switzer, sans-serif"
+      }
+    ],
+    "broken": [],
+    "sections": [
+      "home",
+      "benefits",
+      "process",
+      "reviews",
+      "faqs"
+    ],
+    "footer": false,
+    "width": 768,
+    "errors": [],
+    "failed": []
+  },
+  {
+    "overflow": false,
+    "headings": [
+      {
+        "text": "Design thatdelivers results.",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Discover why we stand out",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Clear design systems",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Websites built to perform",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Framer-ready execution",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "How the process flows with clarity",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Discovery",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Strategy",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Direction",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Design",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Development",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Delivery",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Hear from what myclients have to say.",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Martina Martinez",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Thomas Weber",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Ben Harper",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Michael Wong",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Natalie Rivera",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Emma Kraft",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Explore our FAQs",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "How do I submit a design request?",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "How does onboarding work?",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "How fast will I receive my designs?",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Do you work at our company?",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Why not hire full-time?",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Can I order a one-time logo service?",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "What tools do you use?",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "What is your refund policy?",
+        "font": "Switzer, sans-serif"
+      }
+    ],
+    "broken": [],
+    "sections": [
+      "home",
+      "benefits",
+      "process",
+      "reviews",
+      "faqs"
+    ],
+    "footer": false,
+    "width": 1920,
+    "errors": [],
+    "failed": []
+  },
+  {
+    "overflow": false,
+    "headings": [
+      {
+        "text": "Design thatdelivers results.",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Discover why we stand out",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Clear design systems",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Websites built to perform",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Framer-ready execution",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "How the process flows with clarity",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Discovery",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Strategy",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Direction",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Design",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Development",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Delivery",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Hear from what myclients have to say.",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Martina Martinez",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Thomas Weber",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Ben Harper",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Michael Wong",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Natalie Rivera",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Emma Kraft",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Explore our FAQs",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "How do I submit a design request?",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "How does onboarding work?",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "How fast will I receive my designs?",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Do you work at our company?",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Why not hire full-time?",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "Can I order a one-time logo service?",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "What tools do you use?",
+        "font": "Switzer, sans-serif"
+      },
+      {
+        "text": "What is your refund policy?",
+        "font": "Switzer, sans-serif"
+      }
+    ],
+    "broken": [],
+    "sections": [
+      "home",
+      "benefits",
+      "process",
+      "reviews",
+      "faqs"
+    ],
+    "footer": false,
+    "width": 360,
+    "errors": [],
+    "failed": []
+  }
+]

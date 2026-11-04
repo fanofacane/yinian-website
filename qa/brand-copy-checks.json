@@ -1,0 +1,55 @@
+[
+  {
+    "width": 360,
+    "sections": 5,
+    "products": 3,
+    "services": 5,
+    "reviews": 6,
+    "faqs": 6,
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "sections": 5,
+    "products": 3,
+    "services": 5,
+    "reviews": 6,
+    "faqs": 6,
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "width": 768,
+    "sections": 5,
+    "products": 3,
+    "services": 5,
+    "reviews": 6,
+    "faqs": 6,
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "sections": 5,
+    "products": 3,
+    "services": 5,
+    "reviews": 6,
+    "faqs": 6,
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "width": 1920,
+    "sections": 5,
+    "products": 3,
+    "services": 5,
+    "reviews": 6,
+    "faqs": 6,
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "noJS": "all six answers readable"
+  }
+]

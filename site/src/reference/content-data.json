@@ -1,0 +1,211 @@
+{
+  "logo": "/assets/sevora-46ea1e7d026a.svg",
+  "benefits": [
+    [
+      "Clear design systems",
+      "Elevate your B2B brand with specialized design expertise, enhancing industry presence."
+    ],
+    [
+      "Websites built to perform",
+      "Dominate search results with our precision-tailored sites designed for top rankings and visibility."
+    ],
+    [
+      "Framer-ready execution",
+      "Expand and flourish with Framer's innovation and design expertise, propelling your success."
+    ]
+  ],
+  "processText": "Process\nHow the process flows with clarity\n\nA clear and collaborative workflow that moves each project from first idea to polished final result.\n\nDiscovery\n\nWe start by understanding your goals, audience, brand needs, and the direction your project should take.\n\nStrategy\n\nI define the structure, message, and creative approach before moving into the visual design stage.\n\nDirection\n\nA clear visual direction is shaped through mood, layout ideas, typography, and overall design language.\n\nDesign\n\nThe main layouts, brand elements, and digital experiences are crafted with careful attention to detail.\n\nDevelopment\n\nDesigns are turned into responsive, polished pages with smooth interactions and clean structure.\n\nDelivery\n\nFinal assets, pages, and guidelines are prepared clearly so everything is ready to launch.",
+  "processIcons": [
+    "/assets/process-0.svg",
+    "/assets/process-1.svg",
+    "/assets/process-2.svg",
+    "/assets/process-3.svg",
+    "/assets/process-4.svg",
+    "/assets/process-5.svg",
+    "/assets/process-6.svg"
+  ],
+  "faqs": [
+    {
+      "question": "How do I submit a design request?",
+      "expanded": "How do I submit a design request?\n\nYou and your team can request design work through a shared board we will set up for you in Asana. You can request as many designs as you like."
+    },
+    {
+      "question": "How does onboarding work?",
+      "expanded": "How does onboarding work?\n\nYour account manager will set up a call to discuss your design needs. After that, you’ll receive an invitation to your design board on Asana, along with instructions on how to add your design requests"
+    },
+    {
+      "question": "How fast will I receive my designs?",
+      "expanded": "How fast will I receive my designs?\n\nYou can set your own deadlines for designs but on average, we deliver a design within a couple of days."
+    },
+    {
+      "question": "Do you work at our company?",
+      "expanded": "Do you work at our company?\n\nIt may feel like it but we do not work at your company however we do stay in close touch to make sure we provide the best service possible."
+    },
+    {
+      "question": "Why not hire full-time?",
+      "expanded": "Why not hire full-time?\n\nA full-time designer can be expensive and hard to source. Your company may not have enough work to keep a full-time designer busy."
+    },
+    {
+      "question": "Can I order a one-time logo service?",
+      "expanded": "Can I order a one-time logo service?\n\nWe offer a combined All-In-One plan to help you with all your design needs. You’re welcome to upgrade for one month to get the designs you need, then return to your previous plan for the following month."
+    },
+    {
+      "question": "What tools do you use?",
+      "expanded": "What tools do you use?\n\nWe work in a wide range of design software, including Figma, Photoshop, Illustrator, After Effects, Canva, and many others."
+    },
+    {
+      "question": "What is your refund policy?",
+      "expanded": "What is your refund policy?\n\nBecause we deliver custom design work it’s not possible to issue a refund."
+    }
+  ],
+  "heroBackgrounds": [
+    {
+      "src": "/assets/launchfolio-639e829b72c5.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/assets/launchfolio-d0b924a64cdd.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/assets/launchfolio-7077f978d9a5.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/assets/launchfolio-112a2f3667ea.jpg",
+      "alt": ""
+    }
+  ],
+  "heroImages": [
+    {
+      "src": "/assets/launchfolio-f53b53f2213e.jpg",
+      "alt": "Headshot of *Designer Name*"
+    },
+    {
+      "src": "/assets/launchfolio-49eb0e7e3305.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/assets/launchfolio-dd73d5a73259.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/assets/launchfolio-2044e6a847db.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/assets/launchfolio-9ae700fc8543.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/assets/launchfolio-a6f2476aab36.jpg",
+      "alt": ""
+    }
+  ],
+  "logos": [
+    "/assets/client-logo-0.svg",
+    "/assets/client-logo-1.svg",
+    "/assets/client-logo-2.svg",
+    "/assets/client-logo-3.svg",
+    "/assets/client-logo-4.svg",
+    "/assets/client-logo-5.svg"
+  ],
+  "testimonials": [
+    {
+      "text": "The new UI design cut our customer support tickets in half. It's been a game-changer for us.\n\nMartina Martinez\n\nCustomer Manager at SupportEase",
+      "image": "/assets/launchfolio-051fecd67eee.jpg",
+      "quoteParts": [
+        {
+          "text": "The new UI design ",
+          "bold": false
+        },
+        {
+          "text": "cut our customer support tickets in half.",
+          "bold": true
+        },
+        {
+          "text": " It's been a game-changer for us.",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "text": "Working with Joseph felt like having a seasoned design partner who truly understood our vision for Zazzle and brought it to life in ways we hadn't even imagined.\n\nThomas Weber\n\nCo-founder of KYMA",
+      "image": "/assets/launchfolio-9ae700fc8543.jpg",
+      "quoteParts": [
+        {
+          "text": "Working with Joseph felt like having a seasoned design partner ",
+          "bold": false
+        },
+        {
+          "text": "who truly understood our vision for Zazzle ",
+          "bold": true
+        },
+        {
+          "text": "and brought it to life in ways we hadn't even imagined.",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "text": "Our website conversion rate improved significantly thanks to Joseph's expertise.\n\nBen Harper\n\nCTO of Nexus",
+      "image": "/assets/launchfolio-752f243fa2f7.jpg",
+      "quoteParts": [
+        {
+          "text": "Our website ",
+          "bold": false
+        },
+        {
+          "text": "conversion rate improved significantly",
+          "bold": true
+        },
+        {
+          "text": " thanks to Joseph's expertise.",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "text": "Joseph's design approach brought clarity to our complex data visualizations. Our users are thrilled!\n\nMichael Wong\n\nData Scientist at DataSphere",
+      "image": "/assets/launchfolio-d30cab25aa62.jpg",
+      "quoteParts": [
+        {
+          "text": "Joseph's design approach brought clarity to our complex data visualizations. Our users are thrilled!",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "text": "The rebranding exceeded our expectations. It's given us a competitive edge in our industry.\n\nNatalie Rivera\n\nBrand Manager at UnityBrands",
+      "image": "/assets/launchfolio-e644717aa8b0.jpg",
+      "quoteParts": [
+        {
+          "text": "The rebranding exceeded our expectations. ",
+          "bold": false
+        },
+        {
+          "text": "It's given us a competitive edge in our industry.",
+          "bold": true
+        }
+      ]
+    },
+    {
+      "text": "The redesign transformed our brand image. We've seen a 30% increase in engagement since launch.\n\nEmma Kraft\n\nCMO of TechVista",
+      "image": "/assets/launchfolio-314a24b817f2.jpg",
+      "quoteParts": [
+        {
+          "text": "The redesign transformed our brand image. ",
+          "bold": false
+        },
+        {
+          "text": "We've seen a 30% increase in engagement",
+          "bold": true
+        },
+        {
+          "text": " since launch.",
+          "bold": false
+        }
+      ]
+    }
+  ]
+}
