@@ -1,5 +1,6 @@
 import React from "react";
 import { createRoot, hydrateRoot } from "react-dom/client";
+import { pageRegistry } from "./site-pages";
 import { App } from "./App.jsx";
 import "./styles.css";
 
@@ -24,7 +25,7 @@ class DocumentBoundary extends React.Component {
 }
 const application = (
   <React.StrictMode>
-    <DocumentBoundary><App notFound={root.dataset.page === "404"} /></DocumentBoundary>
+    <DocumentBoundary><App path={location.pathname} notFound={root.dataset.page === "404" || !pageRegistry.some(page => page.path === location.pathname)} /></DocumentBoundary>
   </React.StrictMode>
 );
 if (root.hasChildNodes()) hydrateRoot(root, application);

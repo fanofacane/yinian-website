@@ -1,5 +1,30 @@
 [
   {
+    "source": "assets/generated-about/building-cutout.png",
+    "generator": "built-in image_gen edit",
+    "input": "assets/generated-about/building.png",
+    "promptFile": "research/about-image-cutout-prompt.json",
+    "outputs": ["/assets/yinian-about-building-cutout-480.webp", "/assets/yinian-about-building-cutout-960.webp"],
+    "status": "active; transparent architectural illustration, sky removed, not verified office imagery"
+  },
+  {
+    "source": "assets/generated-about/building.png",
+    "generator": "built-in image_gen",
+    "promptFile": "research/about-image-prompt.json",
+    "name": "About page glass-building illustration",
+    "outputs": ["/assets/yinian-about-building-480.webp", "/assets/yinian-about-building-960.webp"],
+    "status": "superseded by transparent building-cutout; original retained"
+  },
+  {
+    "sourceProject": "D:/software/yinian/website/projects/givegroup",
+    "purpose": "User-requested cases page reconstruction",
+    "content": "brand/content.json cases; site/branded/cases/index.html",
+    "layoutAndMotion": "site/public/static/css/common.css cases/hero rules and branded cases inline carousel script",
+    "localizedAssets": "research/givegroup-case-provenance.json",
+    "importScript": "research/import_givegroup_cases.py",
+    "status": "active; illustrative scenario content, not verified customer endorsements"
+  },
+  {
     "source": "D:\\software\\yinian\\website\\site\\public\\_variants\\c7c6c15b64935d32.woff2",
     "url": "/_assets/fonts.gstatic.com/s/instrumentsans/v4/pximypc9vsFDm051Uf6KVwgkfoSxQ0GsQv8ToedPibnr-yp2JGEJOH9npST3-QfwmS0v3_7Y.woff2",
     "output": "/assets/sevora-6da82acb12e0.woff2"

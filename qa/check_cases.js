@@ -1,0 +1,90 @@
+async page => {
+  const assert = (value, message) => { if (!value) throw new Error(message); };
+  const errors = [];
+  const external = [];
+  page.on('pageerror', error => errors.push(error.message));
+  page.on('request', request => { if (!request.url().startsWith('http://127.0.0.1:4178/') && !request.url().startsWith('data:')) external.push(request.url()); });
+  const results = [];
+  for (const width of [1440, 1920, 1024, 768, 390, 360]) {
+    await page.setViewportSize({width,height:1000});
+    await page.emulateMedia({reducedMotion:width === 1440 ? 'no-preference' : 'reduce'});
+    const response = await page.goto('http://127.0.0.1:4178/cases');
+    assert(response.status() === 200, 'Cases not 200');
+    await page.locator('html[data-interactive]').waitFor();
+    await page.locator('.cases-feature-media img').evaluateAll(images => Promise.all(images.map(image => image.decode())));
+    assert(await page.locator('.cases-list-item').count() === 6, 'Six scenarios missing');
+    assert(await page.getByRole('button',{name:'上一项',exact:true}).isDisabled(), 'Initial previous enabled');
+    const root = page.locator('.cases-carousel');
+    const initial = await page.locator('.cases-slide.is-active').boundingBox();
+    await page.getByRole('button',{name:'下一项',exact:true}).click();
+    if (width === 1440) {
+      const duration = await page.locator('.cases-slide.is-active').evaluate(element => getComputedStyle(element).transitionDuration);
+      assert(duration.includes('1.33s'), 'Source transition timing missing');
+      await page.waitForTimeout(220);
+      const middle = await page.locator('.cases-slide.is-active').boundingBox();
+      assert(middle.width < initial.width && middle.width > initial.width * .319, 'Expansion animation missing');
+      await page.waitForTimeout(1200);
+    }
+    assert(await page.getByRole('progressbar',{name:'精选案例进度'}).getAttribute('aria-valuenow') === '50','Progress incorrect');
+    const rootBox = await root.boundingBox();
+    const activeBox = await page.locator('.cases-slide.is-active').boundingBox();
+    assert(Math.abs(activeBox.x-rootBox.x) < 2,'Active slide is misaligned');
+    await root.focus();
+    await page.keyboard.press('ArrowRight');
+    assert(await page.getByRole('button',{name:'下一项',exact:true}).isDisabled(),'Last next enabled');
+    await page.keyboard.press('ArrowLeft');
+    await page.keyboard.press('ArrowLeft');
+    await page.emulateMedia({reducedMotion:'reduce'});
+    const dragBox = await root.boundingBox();
+    const start = {x:dragBox.x + dragBox.width*.65,y:dragBox.y+70};
+    await page.mouse.move(start.x,start.y);
+    await page.mouse.down();
+    await page.mouse.move(start.x-160,start.y,{steps:12});
+    await page.mouse.up();
+    assert(await page.getByRole('progressbar',{name:'精选案例进度'}).getAttribute('aria-valuenow') === '50','Pointer swipe failed');
+    assert(page.url().split('?')[0].endsWith('/cases'),'Dragging navigated unexpectedly');
+    await page.locator('.cases-filters a').filter({hasText:'制造业'}).click();
+    assert(await page.locator('.cases-list-item').count() === 1,'Industry filter failed');
+    assert(page.url().includes('?industry=1'),'Filter URL not synced');
+    await page.reload();
+    await page.waitForFunction(() => document.querySelectorAll('.cases-list-item').length === 1);
+    await page.locator('.cases-filters a').filter({hasText:'跨境贸易'}).click();
+    assert((await page.locator('.cases-list-item h2').innerText()).includes('跨境'),'Wrong filter result');
+    await page.goBack();
+    await page.waitForFunction(() => document.querySelector('.cases-filters a[aria-current]').textContent === '制造业');
+    await page.locator('.cases-filters a').filter({hasText:'全部',exact:true}).click();
+    assert(await page.locator('.cases-list-item').count() === 6,'All filter failed');
+    const overflow = await page.evaluate(() => document.documentElement.scrollWidth > innerWidth);
+    assert(!overflow,`Overflow at ${width}`);
+    await page.evaluate(() => scrollTo(0,0));
+    await page.screenshot({path:`qa/cases-givegroup-${width}.png`,fullPage:true});
+    await page.locator('.cases-list-item').first().click();
+    await page.waitForURL('**/cases/manufacturing-knowledge');
+    assert((await page.locator('h1').innerText()).includes('制造企业'),'Detail destination incorrect');
+    assert((await page.reload()).status() === 200,'Detail refresh not 200');
+    assert(await page.locator('.case-detail-body section').count() >= 5,'Full article sections missing');
+    assert((await page.locator('.case-detail-body').innerText()).length > 1100,'Article is too short');
+    assert(await page.locator('.case-detail-sidebar,.case-detail-offers').count() === 0,'Removed modules remain');
+    assert(!await page.evaluate(() => document.documentElement.scrollWidth > innerWidth),'Detail overflow');
+    if ([390,1440].includes(width)) await page.screenshot({path:`qa/case-detail-${width}.png`,fullPage:true});
+    results.push({width,expansion:true,keyboard:true,drag:true,filter:true,filterRefresh:true,history:true,detail:true,overflow});
+  }
+  for (const slug of ['retail-content','executive-workflow','supply-chain-roadmap','cross-border-content','education-workshop']) {
+    assert((await page.goto(`http://127.0.0.1:4178/cases/${slug}`)).status() === 200,`${slug} not 200`);
+  }
+  assert((await page.goto('http://127.0.0.1:4178/cases/missing-case')).status() === 404,'Unknown case not 404');
+  const context = await page.context().browser().newContext({javaScriptEnabled:false,viewport:{width:390,height:844}});
+  const staticPage = await context.newPage();
+  await staticPage.goto('http://127.0.0.1:4178/cases');
+  assert(await staticPage.locator('.cases-list-item').count() === 6,'No-JS cards missing');
+  assert(!await staticPage.locator('.cases-controls').isVisible(),'No-JS controls visible');
+  await staticPage.locator('.cases-list-item').first().click();
+  assert(await staticPage.locator('.case-detail-body').isVisible(),'No-JS detail missing');
+  await context.close();
+  assert(errors.length === 0, errors.join('\n'));
+  assert(external.length === 0, external.join('\n'));
+  await page.setViewportSize({width:1440,height:1000});
+  await page.emulateMedia({reducedMotion:'no-preference'});
+  await page.goto('http://127.0.0.1:4178/cases');
+  return {results,noJS:true,reducedMotion:true,unknown404:true,errors,external};
+}

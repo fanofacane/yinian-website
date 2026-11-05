@@ -1,0 +1,8 @@
+{
+  "tool": "built-in image_gen",
+  "mode": "edit",
+  "transparent_background": true,
+  "prompt": "Edit the supplied architectural photograph. Remove ONLY the sky/background surrounding the building and make every sky/background pixel genuinely transparent (alpha 0). Preserve the entire visible glass building exactly: the same sharp roof apex, corner position, perspective, proportions, curtain-wall mullions, glass reflections, neutral grey color, lighting, and fine architectural edge detail. Reflected sky inside the glass panels is part of the building and must remain intact and opaque. Preserve the original full image canvas, dimensions and subject placement; do not tight-crop, resize, move or redesign the building. No white, grey, checkerboard or colored matte; actual transparent alpha outside the silhouette. Do not add text, logos, shadows or any other elements. Output a clean photorealistic building cutout on transparent background.",
+  "input": "assets/generated-about/building.png",
+  "output": "assets/generated-about/building-cutout.png"
+}

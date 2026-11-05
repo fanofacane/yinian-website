@@ -1,5 +1,5 @@
-import { readFileSync, writeFileSync } from "node:fs";
-import { render } from "../dist/render/entry-server.js";
+import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
+import { render, pageRegistry } from "../dist/render/entry-server.js";
 
 const directory = new URL("../dist/client/", import.meta.url);
 const origin = new URL(process.env.SITE_URL || "http://127.0.0.1:4178");
@@ -24,11 +24,24 @@ const metadata = `
 const markup = render();
 if (!markup.includes('你关心的问题') || !markup.includes('企业仍需要安排熟悉业务的人员')) throw new Error('Prerender did not include page content and FAQ answers');
 writeFileSync(new URL('index.html', directory), template.replace('</head>', `${metadata}</head>`).replace('<div id="root"></div>', `<div id="root">${markup}</div>`));
+for (const page of pageRegistry.filter(page => page.path !== '/')) {
+  const destination = new URL(`.${page.path}/`, directory);
+  mkdirSync(destination, { recursive: true });
+  const pageMetadata = metadata
+    .replaceAll(canonical, escape(new URL(page.path, origin).href))
+    .replace(/(<meta name="description" content=")[^"]*/, `$1${escape(page.description)}`)
+    .replace(/(<meta property="og:title" content=")[^"]*/, `$1${escape(page.title)}`)
+    .replace(/(<meta property="og:description" content=")[^"]*/, `$1${escape(page.description)}`);
+  writeFileSync(new URL('index.html', destination), template
+    .replace(/<title>.*?<\/title>/, `<title>${escape(page.title)}</title>`)
+    .replace('</head>', `${pageMetadata}</head>`)
+    .replace('<div id="root"></div>', `<div id="root">${render(false, page.path)}</div>`));
+}
 const notFound = template
   .replace(/<title>.*?<\/title>/, '<title>页面未找到｜一念智能</title>')
   .replace('</head>', '<meta name="robots" content="noindex, follow"></head>')
   .replace('<div id="root"></div>', `<div id="root" data-page="404">${render(true)}</div>`);
 writeFileSync(new URL('404.html', directory), notFound);
 writeFileSync(new URL('robots.txt', directory), `User-agent: *\nAllow: /\nSitemap: ${origin.href}sitemap.xml\n`);
-writeFileSync(new URL('sitemap.xml', directory), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>${canonical}</loc></url></urlset>\n`);
+writeFileSync(new URL('sitemap.xml', directory), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${pageRegistry.map(page => `<url><loc>${escape(new URL(page.path, origin).href)}</loc></url>`).join('')}</urlset>\n`);
 console.log(`Prerendered homepage, 404 and SEO files for ${origin.href}`);

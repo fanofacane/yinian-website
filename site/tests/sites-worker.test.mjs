@@ -2,6 +2,40 @@ import assert from "node:assert/strict";
 import { access, readFile } from "node:fs/promises";
 import test from "node:test";
 import worker from "../worker/index.js";
+import { pageRegistry } from '../src/site-pages.js';
+import { caseArticles } from '../src/case-articles.js';
+
+test('all case articles prerender full prose without recommendations or service offers', async () => {
+  for (const [slug, article] of Object.entries(caseArticles)) {
+    const html = await readFile(new URL(`../dist/client/cases/${slug}/index.html`, import.meta.url), 'utf8');
+    assert.ok(html.includes(article.summary), slug);
+    for (const paragraph of article.intro) assert.ok(html.includes(paragraph), slug);
+    for (const section of article.sections) {
+      assert.ok(html.includes(section.title), slug);
+      for (const paragraph of section.paragraphs) assert.ok(html.includes(paragraph), slug);
+    }
+    assert.ok(!html.includes('case-detail-sidebar'), slug);
+    assert.ok(!html.includes('case-detail-offers'), slug);
+    assert.ok(html.includes('非已核实客户项目纪实'), slug);
+  }
+});
+
+test('registered pages route to their own prerendered documents', async () => {
+  for (const page of pageRegistry.filter(page => page.path !== '/')) {
+    const calls = [];
+    const response = await worker.fetch(new Request(`https://example.test${page.path}`), { ASSETS: { fetch: async request => {
+      calls.push(new URL(request.url).pathname);
+      return new Response('registered page');
+    } } });
+    assert.equal(response.status, 200);
+    assert.deepEqual(calls, [`${page.path}/index.html`]);
+    const html = await readFile(new URL(`../dist/client${page.path}/index.html`, import.meta.url), 'utf8');
+    assert.ok(html.includes(`<title>${page.title}</title>`));
+    assert.ok(html.includes(`<link rel="canonical" href="http://127.0.0.1:4178${page.path}">`));
+    assert.ok(html.includes(page.description));
+    assert.ok(html.includes('products-panel'));
+  }
+});
 
 test("serves existing static assets without a fallback", async () => {
   const calls = [];

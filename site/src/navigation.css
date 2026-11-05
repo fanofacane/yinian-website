@@ -1,0 +1,41 @@
+.brand,.header-contact { flex-shrink:0; }
+.navigation,.products-panel,.mobile-menu { font-family:Switzer,"Microsoft YaHei","PingFang SC",sans-serif; }
+.footer-nav { flex-wrap:wrap; justify-content:flex-start; gap:16px 24px; }
+.nav-links { gap:22px; }
+.nav-links > a,.products-trigger { font-size:14px; white-space:nowrap; }
+.products-nav { position:static; }
+.products-trigger { display:flex; align-items:center; gap:6px; padding:20px 0; background:transparent; font-weight:500; cursor:default; }
+.products-trigger svg { transition:transform .2s; }
+.products-trigger[aria-expanded=true] svg { transform:rotate(180deg); }
+.products-panel { position:absolute; top:calc(100% - 8px); left:50%; width:min(1200px,calc(100vw - 80px)); display:grid; grid-template-columns:210px 1fr; gap:36px; min-height:324px; padding:30px; border:1px solid #eeeef1; border-radius:12px; background:#fff; box-shadow:0 16px 36px #1b1b210c; opacity:0; visibility:hidden; transform:translate(-50%,8px); transition:opacity .18s,transform .18s,visibility .18s; }
+.products-panel::before { content:''; position:absolute; height:18px; left:0; right:0; top:-18px; }
+.products-panel.is-open { opacity:1; visibility:visible; transform:translate(-50%,0); }
+.products-categories { border-right:1px solid #f0f0f3; padding-right:24px; }
+.products-categories > button { display:flex; justify-content:space-between; align-items:center; width:100%; padding:17px 18px; margin-bottom:10px; background:transparent; border-radius:8px; text-align:left; font-size:16px; font-weight:400; }
+.products-categories > button.is-selected { background:#f7f7f8; }
+.products-categories > button > svg { color:#72727c; }
+.products-services { min-width:0; padding:8px 0; }
+.product-menu-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:30px; animation:services-enter .36s cubic-bezier(.22,1,.36,1) both; }
+@keyframes services-enter { from { opacity:0; transform:translateY(14px); } to { opacity:1; transform:translateY(0); } }
+.product-menu-card { display:block; min-width:0; }
+.product-menu-title { display:block; margin-bottom:16px; font-size:17px; font-weight:400; line-height:1.5; transition:color .18s; }
+.product-menu-card img { display:block; width:100%; height:auto; aspect-ratio:4/3; object-fit:cover; border-radius:8px; }
+.product-menu-card:hover .product-menu-title { color:#72727c; }
+.site-header.is-floating .nav-links { gap:20px; }
+.site-header.is-floating .products-panel { top:calc(100% + 10px); }
+.site-header.is-floating .products-trigger { padding:15px 0; }
+.nav-links > a[aria-current=page] { text-decoration:underline; text-underline-offset:7px; }
+.mobile-products-trigger { display:flex; justify-content:center; align-items:center; gap:10px; background:transparent; padding:8px; line-height:20px; }
+html:not([data-interactive]) .products-nav { display:none; }
+.static-products { display:flex; flex-wrap:wrap; gap:18px; padding:14px 0; }
+.static-products > div { display:flex; flex-wrap:wrap; gap:14px; font-size:13px; }
+.mobile-products { padding:12px 18px; border-left:1px solid var(--border); margin:8px 12px; }
+.mobile-products > div + div { margin-top:18px; }
+.mobile-products p { font-size:11px; color:#85858f; margin:0 8px 6px; }
+.mobile-product-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:20px 14px; }
+.mobile-menu-links .mobile-products a { display:block; text-align:left; padding:0; }
+.mobile-products .product-menu-title { font-size:13px; margin-bottom:10px; }
+.mobile-products p { margin-bottom:14px; }
+@media(min-width:1200px) and (max-width:1350px) { .nav-links,.site-header.is-floating .nav-links { gap:16px; } .navigation { gap:16px; } .header-phone { font-size:14px; } }
+@media(max-width:1199px) { .mobile-menu { overflow-y:auto; gap:24px; justify-content:flex-start; } .mobile-menu > .dark-button { margin-top:auto; flex-shrink:0; } .mobile-menu-links { flex-shrink:0; } }
+@media(prefers-reduced-motion:reduce) { .products-panel,.products-trigger svg,.product-menu-title { transition:none; } .product-menu-grid { animation:none; } }

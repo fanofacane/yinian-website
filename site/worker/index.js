@@ -1,3 +1,6 @@
+import { pageRegistry } from './routes.js';
+const registeredRoutes = pageRegistry.map(page => page.path);
+
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
@@ -11,10 +14,11 @@ export default {
     }
     // Only registered pages and static asset paths reach the asset provider.
     // Never let a host's SPA fallback turn an unknown URL into a 200 homepage.
-    const known = url.pathname === "/" || url.pathname.startsWith("/assets/") || ["/robots.txt", "/sitemap.xml", "/favicon.ico"].includes(url.pathname);
+    const page = registeredRoutes.includes(url.pathname);
+    const known = page || url.pathname.startsWith("/assets/") || ["/robots.txt", "/sitemap.xml", "/favicon.ico"].includes(url.pathname);
     if (known) {
       const assetUrl = new URL(url);
-      if (assetUrl.pathname === "/") assetUrl.pathname = "/index.html";
+      if (page) assetUrl.pathname = url.pathname === '/' ? '/index.html' : `${url.pathname}/index.html`;
       const response = await env.ASSETS.fetch(new Request(assetUrl, request));
       if (response.status !== 404) return response;
     }

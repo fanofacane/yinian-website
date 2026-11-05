@@ -1,7 +1,6 @@
 import { useEffect, useLayoutEffect, useRef, useState } from "react";
 import {
   ArrowUpRight,
-  List,
   X,
   Plus,
   Star,
@@ -10,17 +9,19 @@ import {
   Trophy,
 } from "@phosphor-icons/react";
 import {
-  navigation,
   benefits,
   testimonials,
   faqs,
   processSteps,
   projects,
   avatars,
-  logo,
   clientLogos,
   clientNames,
 } from "./content";
+import { Navigation } from "./Navigation";
+import { InteriorPage } from "./InteriorPages";
+import { AboutPage } from "./AboutPage";
+import { CasesPage } from "./CasesPage";
 import serviceImages from "./service-images.json";
 import {
   springFrames,
@@ -31,108 +32,8 @@ import { useLogoTicker } from "./motion/useLogoTicker";
 import { useHeroPlayback } from "./motion/useHeroPlayback";
 import { FollowCursor } from "./motion/FollowCursor";
 import { useSmoothScroll } from "./motion/useSmoothScroll";
-import { HeaderContact, SiteFooter, FloatingActions } from "./SiteChrome";
+import { SiteFooter, FloatingActions } from "./SiteChrome";
 
-function Navigation({ onContact, onMenuChange }) {
-  const [open, setOpen] = useState(false);
-  useEffect(() => onMenuChange(open), [open, onMenuChange]);
-  const header = useRef(null);
-  useEffect(() => {
-    if (!open) return;
-    const before = document.body.style.overflow;
-    document.body.style.overflow = "hidden";
-    return () => {
-      document.body.style.overflow = before;
-    };
-  }, [open]);
-  useEffect(() => {
-    const update = () => {
-      const progress = Math.max(0, Math.min(1, (scrollY - 148) / 32));
-      header.current.classList.toggle("is-floating", scrollY > 148);
-      header.current.style.setProperty("--nav-y", `${-84 * (1 - progress)}px`);
-    };
-    update();
-    addEventListener("scroll", update, { passive: true });
-    return () => removeEventListener("scroll", update);
-  }, []);
-  useEffect(() => {
-    const close = (e) => {
-      if (e.key === "Escape") setOpen(false);
-    };
-    const resize = () => {
-      if (innerWidth >= 1200) setOpen(false);
-    };
-    window.addEventListener("keydown", close);
-    window.addEventListener("resize", resize);
-    return () => {
-      window.removeEventListener("keydown", close);
-      window.removeEventListener("resize", resize);
-    };
-  }, []);
-  return (
-    <header ref={header} className={`site-header ${open ? "menu-open" : ""}`}>
-      <nav className="container navigation" aria-label="主导航">
-        <a className="brand" href="#home" onClick={() => setOpen(false)}>
-          <img src={logo} alt="" />
-          一念智能
-        </a>
-        <div className="nav-links">
-          {navigation.map(([label, id]) => (
-            <a key={id} href={`#${id}`} onClick={() => setOpen(false)}>
-              {label}
-            </a>
-          ))}
-        </div>
-        <HeaderContact onContact={onContact} />
-        <button
-          className="menu-toggle"
-          aria-label={open ? "关闭菜单" : "打开菜单"}
-          aria-expanded={open}
-          aria-controls="mobile-navigation"
-          onClick={() => setOpen(!open)}
-        >
-          {open ? <X size={24} /> : <List size={24} />}
-        </button>
-      </nav>
-      <div
-        id="mobile-navigation"
-        className={`mobile-menu ${open ? "is-open" : ""}`}
-        inert={!open}
-        aria-hidden={!open}
-      >
-        <div className="mobile-menu-links">
-          {navigation.map(([label, id]) => (
-            <a
-              key={id}
-              href={`#${id}`}
-              onClick={(e) => {
-                e.preventDefault();
-                setOpen(false);
-                history.pushState(null, "", `#${id}`);
-                requestAnimationFrame(() =>
-                  document
-                    .getElementById(id)
-                    .scrollIntoView({ behavior: "smooth" }),
-                );
-              }}
-            >
-              {label}
-            </a>
-          ))}
-        </div>
-        <button
-          className="dark-button"
-          onClick={() => {
-            setOpen(false);
-            onContact();
-          }}
-        >
-          免费方案 <ArrowUpRight size={18} />
-        </button>
-      </div>
-    </header>
-  );
-}
 function HappyClients() {
   return (
     <div className="happy-clients">
@@ -318,7 +219,7 @@ function Benefits() {
           data-reveal-stiffness="500"
           data-reveal-damping="60"
         >
-          <span className="eyebrow">服务产品</span>
+          <span className="eyebrow">产品和方案</span>
           <h2 id="benefits-heading">找到适合你的 AI 落地起点</h2>
           <p>
             从管理者认知，到企业方案，再到业务落地，
@@ -642,7 +543,7 @@ function Contact({ onClose }) {
     </Overlay>
   );
 }
-export function App({ notFound = false }) {
+export function App({ notFound = false, path = "/" }) {
   usePageMotion();
   useEffect(() => {
     document.documentElement.dataset.interactive = "true";
@@ -659,11 +560,12 @@ export function App({ notFound = false }) {
         跳转到正文
       </a>
       {!notFound && <Navigation
+        path={path}
         onContact={openContact}
         onMenuChange={setMenuOpen}
       />}
       <FollowCursor />
-      {notFound ? <main className="not-found" id="home"><p>404</p><h1>页面未找到</h1><p>你访问的页面不存在，或已被移走。</p><a className="dark-button" href="/">返回首页</a></main> : <main>
+      {notFound ? <main className="not-found" id="home"><p>404</p><h1>页面未找到</h1><p>你访问的页面不存在，或已被移走。</p><a className="dark-button" href="/">返回首页</a></main> : path === '/about' ? <AboutPage /> : path === '/cases' || path.startsWith('/cases/') ? <CasesPage path={path} /> : path !== "/" ? <InteriorPage path={path} onContact={openContact} /> : <main>
         <Hero onProject={setProject} />
         <Benefits />
         <Process />
@@ -671,7 +573,7 @@ export function App({ notFound = false }) {
         <FAQs />
       </main>}
       <SiteFooter onContact={openContact} />
-      <FloatingActions onContact={openContact} hideInHero={!notFound} />
+      <FloatingActions onContact={openContact} hideInHero={!notFound && path === "/"} />
       {contact && <Contact onClose={() => setContact(false)} />}{" "}
       {project && (
         <Overlay

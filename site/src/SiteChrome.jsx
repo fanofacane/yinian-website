@@ -20,7 +20,7 @@ export function SiteFooter({ onContact }) {
         <h2>让每一家企业<br className="footer-title-break" />都能用好 AI</h2>
         <nav className="footer-nav" aria-label="页脚导航">
           {navigation.map(([label, id]) => <a key={id} href={`/#${id}`}>{label}</a>)}
-        </nav>
+        <a href="/cases">案例</a><a href="/about">关于我们</a></nav>
       </div>
       <div className="footer-main">
         <div className="footer-brand">
@@ -30,7 +30,7 @@ export function SiteFooter({ onContact }) {
         </div>
         <div className="footer-columns">
           <div><h3>一念智能</h3><p>企业 AI 落地一站式服务商</p><p>不是卖工具，而是帮你把 AI<br />真正用出业务价值。</p></div>
-          <div><h3>服务产品</h3><a href="/#benefits">老板课</a><a href="/#benefits">方案班</a><a href="/#benefits">企业 AI 落地</a></div>
+          <div><h3>产品和方案</h3><a href="/solutions/boss-course">老板课</a><a href="/solutions/solution-workshop">方案班</a><a href="/solutions/ai-delivery">企业 AI 落地</a></div>
           <div><h3>一起开启 AI 落地</h3><p>从你的实际业务需求出发</p><a className="footer-contact" href="#contact-info" onClick={onContact}>获取免费方案 ↗</a></div>
         </div>
       </div>

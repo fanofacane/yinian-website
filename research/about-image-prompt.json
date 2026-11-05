@@ -1,0 +1,7 @@
+{
+  "tool": "built-in image_gen",
+  "classification": "photorealistic-natural",
+  "prompt": "Create one photorealistic architectural photograph for the left side of a minimalist Chinese corporate About page. Vertical portrait aspect ratio 4:5. A low-angle close-up view of the sharp corner of a modern office building with silver grey glass curtain wall panels, clean straight grid mullions, subtle reflections of soft clouds, realistic architectural photography. Neutral monochrome grey and off-white palette, very low saturation, soft overcast daylight, restrained elegant editorial quality. Composition: building occupies the lower-left and lower-middle, its corner apex reaches about 22% down from top and 40% across from left; generous pale almost-white sky in upper-right quadrant for a separate HTML title overlay. The building recedes upward with dramatic but realistic perspective. No company logos, no signs, no lettering, no people, no vehicles, no artificial technology graphics, no glow, no blue tint. This is a generic illustrative building, not a depiction of any identified company's office. The image should harmonize with a light grey website and black typography. Return only the photograph.",
+  "original": "assets/generated-about/building.png",
+  "purpose": "Generic building illustration for About page, not a verified office photograph."
+}

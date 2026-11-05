@@ -1,0 +1,67 @@
+[
+  {
+    "sourceProject": "D:\\software\\yinian\\website\\projects\\givegroup",
+    "source": "D:\\software\\yinian\\website\\projects\\givegroup\\site\\public\\_external\\givegroup20260429.oss-cn-hangzhou.aliyuncs.com\\uploads\\images\\202608\\30352f033d21eb3b6364dbfd0bb74302.png",
+    "sourceURL": "/_external/givegroup20260429.oss-cn-hangzhou.aliyuncs.com/uploads/images/202608/30352f033d21eb3b6364dbfd0bb74302.png",
+    "sha256": "d673630fce09bb39366cd70e51a5d74c32fd708d703bf735c00fadfc3288ceb9",
+    "outputs": [
+      "/assets/givegroup-case-manufacturing-knowledge-480.webp",
+      "/assets/givegroup-case-manufacturing-knowledge-960.webp",
+      "/assets/givegroup-case-manufacturing-knowledge-1440.webp"
+    ],
+    "purpose": "User-requested Givegroup cases reconstruction; artwork is illustrative, not customer evidence."
+  },
+  {
+    "sourceProject": "D:\\software\\yinian\\website\\projects\\givegroup",
+    "source": "D:\\software\\yinian\\website\\projects\\givegroup\\site\\public\\_external\\givegroup20260429.oss-cn-hangzhou.aliyuncs.com\\uploads\\images\\202608\\a34b29688ef84cd74faf7b28ffb69b09.webp",
+    "sourceURL": "/_external/givegroup20260429.oss-cn-hangzhou.aliyuncs.com/uploads/images/202608/a34b29688ef84cd74faf7b28ffb69b09.webp",
+    "sha256": "95de84a42ad81031422ac9bbce34bf79c30bec723b95a6f78aaba8fb9e17710b",
+    "outputs": [
+      "/assets/givegroup-case-retail-content-480.webp",
+      "/assets/givegroup-case-retail-content-960.webp"
+    ],
+    "purpose": "User-requested Givegroup cases reconstruction; artwork is illustrative, not customer evidence."
+  },
+  {
+    "sourceProject": "D:\\software\\yinian\\website\\projects\\givegroup",
+    "source": "D:\\software\\yinian\\website\\projects\\givegroup\\site\\public\\_external\\givegroup20260429.oss-cn-hangzhou.aliyuncs.com\\uploads\\images\\202608\\74cf2adcc140688464179115e99c4d11.webp",
+    "sourceURL": "/_external/givegroup20260429.oss-cn-hangzhou.aliyuncs.com/uploads/images/202608/74cf2adcc140688464179115e99c4d11.webp",
+    "sha256": "c08899bf8236dff0e9bf85d995f919864118d377ef44b06eec01a0ee81c0d7ad",
+    "outputs": [
+      "/assets/givegroup-case-executive-workflow-480.webp",
+      "/assets/givegroup-case-executive-workflow-960.webp"
+    ],
+    "purpose": "User-requested Givegroup cases reconstruction; artwork is illustrative, not customer evidence."
+  },
+  {
+    "sourceProject": "D:\\software\\yinian\\website\\projects\\givegroup",
+    "source": "D:\\software\\yinian\\website\\projects\\givegroup\\site\\public\\static\\img\\cd_pic1.webp",
+    "sourceURL": "/static/img/cd_pic1.webp",
+    "sha256": "f3c2ed2bf519bbfadd428203dd429bc42d483d1b00c44e975f312c4d1dc5e9cb",
+    "outputs": [
+      "/assets/givegroup-case-supply-chain-roadmap-480.webp"
+    ],
+    "purpose": "User-requested Givegroup cases reconstruction; artwork is illustrative, not customer evidence."
+  },
+  {
+    "sourceProject": "D:\\software\\yinian\\website\\projects\\givegroup",
+    "source": "D:\\software\\yinian\\website\\projects\\givegroup\\site\\public\\_external\\givegroup20260429.oss-cn-hangzhou.aliyuncs.com\\uploads\\images\\202608\\4c4109178e41179db41d4a393fb45e7a.webp",
+    "sourceURL": "/_external/givegroup20260429.oss-cn-hangzhou.aliyuncs.com/uploads/images/202608/4c4109178e41179db41d4a393fb45e7a.webp",
+    "sha256": "8adba68b057145f9531302ad3708e267d1c4bcbd40f02cc1e929f477732b627a",
+    "outputs": [
+      "/assets/givegroup-case-cross-border-content-480.webp",
+      "/assets/givegroup-case-cross-border-content-960.webp"
+    ],
+    "purpose": "User-requested Givegroup cases reconstruction; artwork is illustrative, not customer evidence."
+  },
+  {
+    "sourceProject": "D:\\software\\yinian\\website\\projects\\givegroup",
+    "source": "D:\\software\\yinian\\website\\projects\\givegroup\\site\\public\\static\\img\\cd_pic3.webp",
+    "sourceURL": "/static/img/cd_pic3.webp",
+    "sha256": "237c33ee4b5b9f0898a5bee57d20e71aff1406011dcf034a1eada2abe8c79cfd",
+    "outputs": [
+      "/assets/givegroup-case-education-workshop-480.webp"
+    ],
+    "purpose": "User-requested Givegroup cases reconstruction; artwork is illustrative, not customer evidence."
+  }
+]

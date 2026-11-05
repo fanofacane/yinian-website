@@ -3,7 +3,7 @@ import heroImages from "./hero-images.json";
 import brand from "./brand-content.json";
 export const navigation = [
   ["首页", "home"],
-  ["服务产品", "benefits"],
+  ["产品和方案", "benefits"],
   ["服务体系", "process"],
   ["客户评价", "reviews"],
   ["常见问题", "faqs"],

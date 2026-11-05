@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-04",
+  "browser": "Edge via playwright-cli",
+  "desktopWidths": [1200, 1440, 1920],
+  "mobileWidths": [360, 390, 768, 1024],
+  "navigation": ["服务与方案", "服务体系", "案例", "评价", "FAQ", "关于"],
+  "fadeUp": {
+    "durationMs": 360,
+    "initial": {"opacity": 0, "translateY": 14},
+    "at180ms": {"opacity": 0.961383, "translateY": 0.540644},
+    "final": {"opacity": 1, "translateY": 0},
+    "reducedMotion": "none"
+  },
+  "imagesDecoded": true,
+  "oldArrowsDescriptionsDividersRemoved": true,
+  "desktopHoverSwitchNavigationRefreshEscape": true,
+  "mobileExpandCollapseAndNavigation": true,
+  "horizontalOverflow": false,
+  "noJSNavigationAndFAQ": true,
+  "unknownPath404": true,
+  "pageErrors": [],
+  "build": "passed",
+  "workerTestsPassed": 7
+}
